@@ -1,0 +1,146 @@
+{
+  "navbar": {
+    "links": [
+      { "label": "Home", "href": "#home" },
+      { "label": "Practice areas", "href": "#services" },
+      { "label": "About", "href": "#about" },
+      { "label": "FAQ", "href": "#faq" },
+      { "label": "Contact", "href": "#contact" }
+    ],
+    "ctaLabel": "Request a Consultation"
+  },
+  "hero": {
+    "eyebrow": "Law Office · Novi Sad",
+    "title": "Legal advice in plain language",
+    "subtitle": "Property, contracts, family, and employment matters — explained without jargon, with fees you know before you commit. We tell you when a case isn't worth pursuing, too.",
+    "primaryButton": "Request a Consultation",
+    "secondaryButton": "Practice Areas",
+    "badges": ["First consultation 30 min", "Predictable fees", "Since 2004"]
+  },
+  "services": {
+    "title": "Practice areas",
+    "subtitle": "Focused on the matters people and small businesses actually face.",
+    "items": [
+      {
+        "title": "Property & real estate",
+        "description": "Purchase contracts, due diligence before buying, land registry issues, and construction disputes.",
+        "icon": "Home"
+      },
+      {
+        "title": "Contracts",
+        "description": "Drafting and reviewing contracts for individuals and small businesses — before you sign, not after it goes wrong.",
+        "icon": "FileText"
+      },
+      {
+        "title": "Family law",
+        "description": "Divorce, custody, and inheritance, handled with as little conflict as the situation allows.",
+        "icon": "Users"
+      },
+      {
+        "title": "Employment law",
+        "description": "Employment contracts, terminations, and workplace disputes, for both employees and employers.",
+        "icon": "Briefcase"
+      },
+      {
+        "title": "Debt recovery",
+        "description": "Collecting unpaid invoices and enforcing judgments, with honest advice on what's realistically recoverable.",
+        "icon": "Scale"
+      },
+      {
+        "title": "Representation",
+        "description": "Court and administrative proceedings, including negotiation and settlement where that serves you better.",
+        "icon": "Handshake"
+      }
+    ]
+  },
+  "about": {
+    "title": "The office",
+    "subtitle": "Small by choice, thorough by habit.",
+    "body": "Milica Jovanović founded the office in 2004; her partner Đorđe Simić joined in 2012. We deliberately keep the caseload small enough that the lawyer you meet at the first consultation is the one who handles your matter to the end. You'll get realistic assessments — including 'settle' or 'don't pursue this' when that's the honest answer — and you'll never learn about a fee after the fact.",
+    "stats": [
+      { "value": "20+", "label": "Years in practice" },
+      { "value": "2", "label": "Partners" },
+      { "value": "1,400+", "label": "Matters handled" }
+    ]
+  },
+  "features": {
+    "title": "How we work",
+    "items": [
+      { "title": "Plain language", "description": "You leave every meeting understanding your position and your options.", "icon": "MessageSquare" },
+      { "title": "Fees agreed up front", "description": "Fixed fee or capped hourly — agreed in writing before work begins.", "icon": "FileCheck" },
+      { "title": "One lawyer, start to finish", "description": "Your matter isn't handed down to whoever is free.", "icon": "Handshake" },
+      { "title": "Honest case assessment", "description": "If your case is weak, we say so at the first meeting — not after a year of fees.", "icon": "Scale" }
+    ]
+  },
+  "gallery": {
+    "items": []
+  },
+  "testimonials": {
+    "title": "What clients say",
+    "items": [
+      {
+        "name": "S. N.",
+        "role": "Apartment purchase",
+        "text": "They found a mortgage on the property the seller hadn't mentioned. The fee for the contract review was the best money I spent that year."
+      },
+      {
+        "name": "Owner, IT company",
+        "role": "Business client",
+        "text": "They rewrote our client contracts in language our customers actually sign without weeks of back and forth."
+      },
+      {
+        "name": "M. T.",
+        "role": "Employment dispute",
+        "text": "Told me on day one what was realistic to expect, and the outcome matched. No drama, no surprise costs."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "question": "What does the first consultation look like?",
+        "answer": "Thirty minutes, in person or by video. You describe the situation, we tell you where you stand, what your options are, and what each would cost. If the honest advice is that you don't need a lawyer, that's what you'll hear."
+      },
+      {
+        "question": "How are fees calculated?",
+        "answer": "Wherever possible we quote a fixed fee for the whole matter — contract review, a purchase, a standard divorce. For disputes with uncertain scope we agree an hourly rate with a written cap, so the total can't run away from you."
+      },
+      {
+        "question": "Do you handle urgent matters?",
+        "answer": "Yes — deadlines for appeals, enforcement, or an unexpected termination don't wait. Mention the deadline when you contact us and we'll tell you the same day whether we can take it on in time."
+      },
+      {
+        "question": "Is everything I tell you confidential?",
+        "answer": "Completely, and from the first contact — attorney-client privilege applies before you formally engage us, including anything you send through the contact form."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Not sure where you stand?",
+    "subtitle": "A thirty-minute consultation will tell you — including whether you need a lawyer at all.",
+    "button": "Request a Consultation"
+  },
+  "contact": {
+    "title": "Contact the office",
+    "subtitle": "We reply to every inquiry within one working day.",
+    "phone": "+381 21 452 200",
+    "email": "office@jovanovicpartners.rs",
+    "address": "Miletićeva 4, Novi Sad",
+    "hours": "Mon–Fri 9:00–17:00, by appointment",
+    "form": {
+      "nameLabel": "Your name",
+      "emailLabel": "Email",
+      "phoneLabel": "Phone",
+      "messageLabel": "Briefly describe your matter",
+      "submitLabel": "Send inquiry"
+    }
+  },
+  "footer": {
+    "businessName": "Jovanović & Partners",
+    "description": "Law office in Novi Sad since 2004.",
+    "phone": "+381 21 452 200",
+    "email": "office@jovanovicpartners.rs",
+    "address": "Miletićeva 4, Novi Sad"
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "navbar": {
+    "links": [
+      { "label": "Home", "href": "#home" },
+      { "label": "Services", "href": "#services" },
+      { "label": "About", "href": "#about" },
+      { "label": "Prices", "href": "#pricing" },
+      { "label": "Contact", "href": "#contact" }
+    ],
+    "ctaLabel": "Book a Slot"
+  },
+  "hero": {
+    "eyebrow": "Independent Workshop · Novi Sad",
+    "title": "We show you what's broken before we fix it",
+    "subtitle": "Every diagnosis comes with photos from under your car and a written quote. You approve the work, we do exactly that — nothing gets replaced 'while we're in there' without asking.",
+    "primaryButton": "Book a Slot",
+    "secondaryButton": "View Services",
+    "image": "/hero.jpg",
+    "imageAlt": "Mechanic working under a car on a lift",
+    "badges": ["All makes & models", "Photo-documented repairs", "Same-week slots"]
+  },
+  "services": {
+    "title": "What we do",
+    "subtitle": "Mechanical work for all makes, petrol and diesel.",
+    "items": [
+      {
+        "title": "Diagnostics",
+        "description": "Computer diagnostics plus an actual mechanic's inspection — fault codes are a starting point, not an answer.",
+        "icon": "Gauge",
+        "image": "/services/diagnostics.jpg"
+      },
+      {
+        "title": "Regular servicing",
+        "description": "Oil, filters, and the full checklist by manufacturer schedule, stamped in your service book.",
+        "icon": "Settings",
+        "image": "/services/service.jpg"
+      },
+      {
+        "title": "Brakes",
+        "description": "Pads, discs, callipers, and brake fluid — with photos of the old parts so you see why they needed changing.",
+        "icon": "Car",
+        "image": "/services/brakes.jpg"
+      },
+      {
+        "title": "Suspension & steering",
+        "description": "Shocks, arms, bushings, and wheel alignment on a calibrated stand.",
+        "icon": "Wrench",
+        "image": "/services/suspension.jpg"
+      },
+      {
+        "title": "Battery & electrics",
+        "description": "Starting problems, alternators, and parasitic drains that empty your battery overnight.",
+        "icon": "BatteryCharging",
+        "image": "/services/battery.jpg"
+      },
+      {
+        "title": "Pre-purchase inspection",
+        "description": "Buying a used car? We check it on the lift before you pay — the cheapest insurance there is.",
+        "icon": "ShieldCheck",
+        "image": "/services/inspection.jpg"
+      }
+    ]
+  },
+  "about": {
+    "title": "A workshop that explains",
+    "subtitle": "Founded by a mechanic tired of the industry's reputation.",
+    "body": "Zoran Mihajlović opened the workshop in 2008 with a simple rule: treat every car like the owner is standing next to you. That's why you get photos of worn parts, why old parts wait for you in the boot, and why the quote you approve is the bill you pay. Half our customers drive German cars out of dealer warranty; the other half are neighbours who've been coming for years.",
+    "stats": [
+      { "value": "17", "label": "Years in business" },
+      { "value": "4", "label": "Mechanics" },
+      { "value": "9,000+", "label": "Repairs done" }
+    ]
+  },
+  "features": {
+    "title": "The house rules",
+    "items": [
+      { "title": "Photos before approval", "description": "You see what we found before you decide anything.", "icon": "FileCheck" },
+      { "title": "Old parts returned", "description": "Replaced parts wait for you in the boot, every time.", "icon": "Package" },
+      { "title": "Quote = bill", "description": "The price you approve is the price you pay. Extra work needs your OK first.", "icon": "Check" },
+      { "title": "Quality parts", "description": "OE or equivalent brands with warranty — no no-name brake pads, ever.", "icon": "ShieldCheck" },
+      { "title": "On schedule", "description": "Booked slot means your car goes on the lift that day, not 'sometime this week'.", "icon": "Clock" },
+      { "title": "Straight answers", "description": "If it can safely wait six months, we'll tell you that too.", "icon": "MessageSquare" }
+    ]
+  },
+  "gallery": {
+    "title": "Around the workshop",
+    "items": [
+      { "image": "/gallery/1.jpg", "alt": "Car on the lift during inspection", "caption": "On the lift" },
+      { "image": "/gallery/2.jpg", "alt": "Diagnostic equipment connected to a car", "caption": "Diagnostics" },
+      { "image": "/gallery/3.jpg", "alt": "New brake discs and pads", "caption": "Brake job" },
+      { "image": "/gallery/4.jpg", "alt": "Wheel alignment stand", "caption": "Alignment" },
+      { "image": "/gallery/5.jpg", "alt": "Workshop interior with two lifts", "caption": "The shop" },
+      { "image": "/gallery/6.jpg", "alt": "Parts shelf with filters and oils", "caption": "Parts stock" }
+    ]
+  },
+  "testimonials": {
+    "title": "What drivers say",
+    "items": [
+      {
+        "name": "Petar D.",
+        "role": "Golf 7 owner",
+        "text": "The dealer quoted a full clutch replacement. These guys found it was just the slave cylinder — a third of the price. Customer for life."
+      },
+      {
+        "name": "Jovana M.",
+        "role": "First car owner",
+        "text": "As someone who knows nothing about cars, the photos and explanations meant I finally understood what I was paying for."
+      },
+      {
+        "name": "Taxi udruženje Novi Sad",
+        "role": "Fleet client",
+        "text": "They service eleven of our cars. Downtime is scheduled, predictable, and the invoices never surprise us."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Common jobs",
+    "subtitle": "Exact quote after diagnosis — these are the usual ranges, parts included.",
+    "plans": [
+      { "name": "Computer diagnostics", "price": "2,500 RSD", "period": "with inspection", "description": "Free if you do the repair with us." },
+      { "name": "Small service", "price": "from 9,000 RSD", "period": "oil + filters", "description": "Depends on engine and oil spec." },
+      { "name": "Front brake job", "price": "from 14,000 RSD", "period": "pads + discs", "description": "Quality parts with warranty." },
+      { "name": "Pre-purchase inspection", "price": "4,000 RSD", "period": "45 min", "description": "Full check on the lift with verbal report." }
+    ]
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "question": "Do I need an appointment?",
+        "answer": "For planned work, yes — book by phone and your slot is yours. For breakdowns, call first thing in the morning; we keep one lift free for urgent cases as long as capacity allows."
+      },
+      {
+        "question": "Can I bring my own parts?",
+        "answer": "You can, but then the warranty covers only our labour, not the part. Honestly: our parts prices are close to retail, and if our part fails, the whole repair is our problem — that's usually the better deal."
+      },
+      {
+        "question": "Will servicing here void my warranty?",
+        "answer": "No. EU block exemption rules apply here too — servicing by manufacturer schedule with documented quality parts keeps your warranty valid. We stamp the book and keep records you can show the dealer."
+      },
+      {
+        "question": "How long does a typical repair take?",
+        "answer": "Most jobs — service, brakes, suspension — are done the same day if booked. Bigger jobs get a time estimate with the quote, and if we're waiting on a part, you'll know before you leave the car."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Hearing a noise you don't like?",
+    "subtitle": "Book a diagnostic slot — it's free if you do the repair with us.",
+    "button": "Book a Slot",
+    "secondaryButton": "Call +381 21 780 100"
+  },
+  "contact": {
+    "title": "Find the workshop",
+    "subtitle": "Industrial zone, five minutes from the highway exit.",
+    "phone": "+381 21 780 100",
+    "email": "servis@mihajlovic.rs",
+    "address": "Privrednikova 18, Novi Sad",
+    "hours": "Mon–Fri 8:00–18:00, Sat 8:00–13:00",
+    "form": {
+      "nameLabel": "Your name",
+      "emailLabel": "Email",
+      "phoneLabel": "Phone",
+      "messageLabel": "Car, year, and what's wrong",
+      "submitLabel": "Send message"
+    }
+  },
+  "footer": {
+    "businessName": "Servis Mihajlović",
+    "description": "Independent car workshop in Novi Sad since 2008.",
+    "phone": "+381 21 780 100",
+    "email": "servis@mihajlovic.rs",
+    "address": "Privrednikova 18, Novi Sad"
+  }
+}

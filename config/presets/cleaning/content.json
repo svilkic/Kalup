@@ -1,0 +1,198 @@
+{
+  "navbar": {
+    "links": [
+      { "label": "Home", "href": "#home" },
+      { "label": "Services", "href": "#services" },
+      { "label": "Prices", "href": "#pricing" },
+      { "label": "FAQ", "href": "#faq" },
+      { "label": "Contact", "href": "#contact" }
+    ],
+    "ctaLabel": "Get a Quote"
+  },
+  "hero": {
+    "eyebrow": "Cleaning Service · Novi Sad",
+    "title": "Come home to a clean apartment",
+    "subtitle": "Regular, deep, and move-out cleaning for homes and offices. Vetted staff, our own professional supplies, and a simple promise: if a spot isn't right, we come back free.",
+    "primaryButton": "Get a Quote",
+    "secondaryButton": "See Prices",
+    "image": "/hero.jpg",
+    "imageAlt": "Cleaner polishing a bright kitchen counter",
+    "badges": ["Vetted & insured staff", "Supplies included", "Re-clean guarantee"]
+  },
+  "services": {
+    "title": "What we clean",
+    "subtitle": "Homes, offices, and everything you'd rather not scrub yourself.",
+    "items": [
+      {
+        "title": "Regular home cleaning",
+        "description": "Weekly or bi-weekly visits by the same person each time — floors, bathrooms, kitchen, dusting, and the details you stop noticing.",
+        "icon": "Home"
+      },
+      {
+        "title": "Deep cleaning",
+        "description": "The spring-clean treatment: inside cabinets, behind appliances, limescale, grout, and window frames. Plan on us being there most of the day.",
+        "icon": "Sparkles"
+      },
+      {
+        "title": "Move-in / move-out",
+        "description": "Empty-apartment cleaning that gets deposits back and makes new homes feel like yours, not the previous tenant's.",
+        "icon": "Package"
+      },
+      {
+        "title": "Office cleaning",
+        "description": "After-hours cleaning for offices and clinics, on a schedule that never interrupts your work.",
+        "icon": "Briefcase"
+      },
+      {
+        "title": "Windows & glass",
+        "description": "Both sides, frames included, streak-free — also as a standalone service for that one dreaded chore.",
+        "icon": "SprayCan"
+      },
+      {
+        "title": "After renovation",
+        "description": "Construction dust is its own science. We bring industrial vacuums and patience.",
+        "icon": "Hammer"
+      }
+    ]
+  },
+  "about": {
+    "title": "About Blistavo",
+    "subtitle": "A local team, not an anonymous platform.",
+    "body": "Blistavo started in 2017 when Ivana couldn't find a cleaning service she'd trust with her own keys. Today we're a team of twelve — every member interviewed in person, background-checked, trained for two weeks, and paid properly, which is why they stay. You get the same cleaner each visit, who learns how you like things done. Keys are stored coded and insured, and in eight years we've never had a claim.",
+    "stats": [
+      { "value": "2017", "label": "Founded" },
+      { "value": "12", "label": "Team members" },
+      { "value": "350+", "label": "Regular clients" }
+    ]
+  },
+  "features": {
+    "title": "Why clients trust us",
+    "subtitle": "The details that make a cleaning service worth keeping.",
+    "items": [
+      { "title": "Same cleaner every time", "description": "They learn your home; you learn their name.", "icon": "Users" },
+      { "title": "Supplies included", "description": "Professional, kid- and pet-safe products — or yours, if you prefer.", "icon": "SprayCan" },
+      { "title": "Insured and bonded", "description": "Full liability coverage for your peace of mind and ours.", "icon": "ShieldCheck" },
+      { "title": "Re-clean guarantee", "description": "Something not right? Tell us within 24h and we fix it free.", "icon": "ThumbsUp" },
+      { "title": "Easy scheduling", "description": "Book, move, or skip a visit with one message.", "icon": "Calendar" },
+      { "title": "Fair, fixed prices", "description": "Quoted by apartment size, not by the hour that mysteriously stretches.", "icon": "FileCheck" }
+    ]
+  },
+  "gallery": {
+    "title": "Before we leave",
+    "items": [
+      { "image": "/gallery/1.jpg", "alt": "Sparkling bathroom after deep clean", "caption": "Bathroom, after" },
+      { "image": "/gallery/2.jpg", "alt": "Kitchen with polished surfaces", "caption": "Kitchen detail" },
+      { "image": "/gallery/3.jpg", "alt": "Living room after regular cleaning", "caption": "Regular visit" },
+      { "image": "/gallery/4.jpg", "alt": "Empty apartment ready for handover", "caption": "Move-out ready" },
+      { "image": "/gallery/5.jpg", "alt": "Streak-free window with city view", "caption": "Windows done right" },
+      { "image": "/gallery/6.jpg", "alt": "Office space cleaned before morning", "caption": "Office, 7 AM" }
+    ]
+  },
+  "testimonials": {
+    "title": "What clients say",
+    "items": [
+      {
+        "name": "Tanja M.",
+        "role": "Weekly client, 3 years",
+        "text": "Ista osoba, isti dan, isti standard — three years running. Giving them keys was hard the first week and never crossed my mind again."
+      },
+      {
+        "name": "Marko J.",
+        "role": "Move-out cleaning",
+        "text": "My landlord walked in, looked around, and returned the full deposit without a word. Best money I spent on that move."
+      },
+      {
+        "name": "Ordinacija Vita",
+        "role": "Office client",
+        "text": "They clean our clinic every evening after close. In two years, not one morning surprise. That reliability is everything for us."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Simple prices",
+    "subtitle": "Fixed by apartment size, supplies included. Offices quoted individually.",
+    "featuredLabel": "Most popular",
+    "plans": [
+      {
+        "name": "One-time cleaning",
+        "price": "from 4,500 RSD",
+        "period": "per visit",
+        "description": "Standard cleaning of an apartment up to 60 m².",
+        "features": ["All rooms and bathrooms", "Supplies included", "Weekend slots available"],
+        "button": "Book a visit",
+        "featured": false
+      },
+      {
+        "name": "Regular cleaning",
+        "price": "from 3,800 RSD",
+        "period": "per visit",
+        "description": "Weekly or bi-weekly, with your dedicated cleaner.",
+        "features": ["Same cleaner every visit", "Priority scheduling", "Skip or move visits freely", "10% off deep cleans"],
+        "button": "Start regular visits",
+        "featured": true
+      },
+      {
+        "name": "Deep cleaning",
+        "price": "from 9,500 RSD",
+        "period": "per visit",
+        "description": "The full-day, everything-included treatment.",
+        "features": ["Inside cabinets & appliances", "Limescale & grout", "Windows included"],
+        "button": "Get a quote",
+        "featured": false
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "question": "Do I need to be home during the cleaning?",
+        "answer": "Up to you. Most regular clients give us a key — stored coded, insured, never labelled with an address. For first visits many people prefer to be home, and that's completely fine."
+      },
+      {
+        "question": "Who exactly comes to my home?",
+        "answer": "A background-checked, trained member of our team — the same person every visit for regular clients. You'll know their name before the first appointment, and you can request a change anytime, no questions asked."
+      },
+      {
+        "question": "What if something gets damaged?",
+        "answer": "We're fully insured. Report it within 24 hours, we document it and the insurance covers it. In eight years it has happened twice — both times a vase, both times resolved within a week."
+      },
+      {
+        "question": "Are your products safe for kids and pets?",
+        "answer": "Yes — our standard line is certified non-toxic. If anyone in your home has allergies or you prefer your own products, just tell us and we'll use those."
+      },
+      {
+        "question": "How does the guarantee work?",
+        "answer": "If any area doesn't meet the standard, message us within 24 hours with a photo and we return to re-clean it free — usually the same or next day."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready for a spotless home?",
+    "subtitle": "Get a fixed quote in five minutes — just tell us the size of your place.",
+    "button": "Get a Quote",
+    "secondaryButton": "Call +381 21 552 880"
+  },
+  "contact": {
+    "title": "Get your quote",
+    "subtitle": "Tell us the apartment size and what you need — we reply within the hour during work time.",
+    "phone": "+381 21 552 880",
+    "email": "zdravo@blistavo.rs",
+    "address": "Novi Sad and surroundings",
+    "hours": "Mon–Sat 7:00–20:00",
+    "form": {
+      "nameLabel": "Your name",
+      "emailLabel": "Email",
+      "phoneLabel": "Phone",
+      "messageLabel": "Apartment size and what you need",
+      "submitLabel": "Get my quote"
+    }
+  },
+  "footer": {
+    "businessName": "Blistavo",
+    "description": "Professional home and office cleaning in Novi Sad since 2017.",
+    "phone": "+381 21 552 880",
+    "email": "zdravo@blistavo.rs",
+    "address": "Novi Sad and surroundings"
+  }
+}

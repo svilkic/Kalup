@@ -1,0 +1,52 @@
+{
+  "brand": {
+    "logo": "",
+    "logoText": "Studio Lena",
+    "favicon": "/logo.svg"
+  },
+  "theme": {
+    "mainColor": "#18181B",
+    "secondaryColor": "#A16207",
+    "accentColor": "#09090B",
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#18181B",
+    "mutedTextColor": "#71717A",
+    "borderRadius": "0px",
+    "fontFamily": "Sora",
+    "containerWidth": "1280px"
+  },
+  "layout": {
+    "navbarVariant": 11,
+    "heroVariant": 9,
+    "servicesVariant": 15,
+    "aboutVariant": 8,
+    "featuresVariant": 15,
+    "galleryVariant": 15,
+    "testimonialsVariant": 12,
+    "pricingVariant": 14,
+    "faqVariant": 13,
+    "ctaVariant": 15,
+    "contactVariant": 13,
+    "footerVariant": 9
+  },
+  "sections": {
+    "showServices": true,
+    "showAbout": true,
+    "showFeatures": true,
+    "showGallery": true,
+    "showTestimonials": true,
+    "showPricing": true,
+    "showFAQ": true,
+    "showCTA": true,
+    "showContact": true,
+    "showCallButton": false
+  },
+  "seo": {
+    "siteUrl": "https://example.com",
+    "defaultTitle": "Studio Lena — Photographer in Novi Sad",
+    "defaultDescription": "Wedding, portrait, and event photography in Novi Sad. Quiet documentary style, delivered galleries in two weeks, no forced poses.",
+    "keywords": ["photographer", "Novi Sad", "wedding photography", "portraits", "events"],
+    "businessType": "ProfessionalService",
+    "language": "en"
+  }
+}

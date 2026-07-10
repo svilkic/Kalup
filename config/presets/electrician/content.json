@@ -1,0 +1,176 @@
+{
+  "navbar": {
+    "links": [
+      { "label": "Home", "href": "#home" },
+      { "label": "Services", "href": "#services" },
+      { "label": "About", "href": "#about" },
+      { "label": "FAQ", "href": "#faq" },
+      { "label": "Contact", "href": "#contact" }
+    ],
+    "ctaLabel": "Get a Quote"
+  },
+  "hero": {
+    "eyebrow": "Licensed Electrician · Novi Sad",
+    "title": "Electrical work done safely and to code",
+    "subtitle": "From a dead socket to a full panel upgrade — we diagnose, quote in writing, and fix it properly. No shortcuts on anything that carries current.",
+    "primaryButton": "Get a Quote",
+    "secondaryButton": "View Services",
+    "image": "/hero.jpg",
+    "imageAlt": "Electrician working on a distribution panel",
+    "badges": ["Licensed & insured", "Emergency call-outs", "Written quotes"],
+    "highlights": [
+      { "title": "Emergency repairs", "description": "Power outages and burning smells — call first, we prioritise these." },
+      { "title": "Panel upgrades", "description": "Old fuse boxes replaced with modern breaker panels." },
+      { "title": "Safety inspections", "description": "Full inspection with a written report, ideal before buying a flat." }
+    ]
+  },
+  "services": {
+    "title": "What we do",
+    "subtitle": "Residential and small commercial electrical work.",
+    "items": [
+      {
+        "title": "Repairs & troubleshooting",
+        "description": "Dead outlets, tripping breakers, flickering lights — we find the cause instead of masking the symptom.",
+        "icon": "Zap"
+      },
+      {
+        "title": "Wiring & rewiring",
+        "description": "New circuits for kitchens and heat pumps, or complete rewiring of older apartments with aluminium wiring.",
+        "icon": "Settings"
+      },
+      {
+        "title": "Panel & fuse box upgrades",
+        "description": "Replacement of outdated panels with modern breakers, RCD protection, and clear circuit labelling.",
+        "icon": "Gauge"
+      },
+      {
+        "title": "Lighting installation",
+        "description": "Indoor and outdoor lighting, from a single fixture to full LED conversions that cut your bill.",
+        "icon": "Lightbulb"
+      },
+      {
+        "title": "EV charger installation",
+        "description": "Home charging points sized to your panel capacity, installed with the required dedicated circuit.",
+        "icon": "BatteryCharging"
+      },
+      {
+        "title": "Safety inspections",
+        "description": "Insulation resistance, grounding, and RCD tests with a written report you can keep or show your insurer.",
+        "icon": "ShieldCheck"
+      }
+    ]
+  },
+  "about": {
+    "title": "Twenty years around live wires",
+    "subtitle": "Careful, licensed, and allergic to improvisation.",
+    "body": "Volt Elektro is run by two licensed electricians who started out maintaining industrial installations before switching to residential work. That background shows: we test everything twice, label every circuit, and leave you a written record of what was done. Most of our work comes from people whose 'quick fix by a friend' stopped working.",
+    "image": "/about.jpg",
+    "imageAlt": "The Volt Elektro team in front of their van",
+    "stats": [
+      { "value": "20+", "label": "Years of experience" },
+      { "value": "2,500+", "label": "Jobs completed" },
+      { "value": "24h", "label": "Emergency response" }
+    ]
+  },
+  "features": {
+    "title": "How we work",
+    "subtitle": "The boring, reliable way.",
+    "items": [
+      { "title": "Fixed written quotes", "description": "You approve the price before we touch a wire.", "icon": "FileCheck" },
+      { "title": "Everything to code", "description": "Work follows current regulations and passes inspection.", "icon": "ShieldCheck" },
+      { "title": "Labelled circuits", "description": "You'll know which breaker does what when we leave.", "icon": "Check" },
+      { "title": "Tidy work", "description": "Dust sheets down, cable offcuts and packaging taken away.", "icon": "Sparkles" },
+      { "title": "Real diagnosis", "description": "We find the fault, not just the symptom that annoys you.", "icon": "Lightbulb" },
+      { "title": "Warranty", "description": "Two years on our labour, manufacturer warranty on parts.", "icon": "Award" }
+    ]
+  },
+  "gallery": {
+    "title": "Recent work",
+    "items": [
+      { "image": "/gallery/1.jpg", "alt": "New breaker panel with labelled circuits", "caption": "Panel upgrade, Liman" },
+      { "image": "/gallery/2.jpg", "alt": "Kitchen lighting installation", "caption": "Kitchen rewire, city centre" },
+      { "image": "/gallery/3.jpg", "alt": "Wall-mounted EV charger", "caption": "EV charger, Veternik" },
+      { "image": "/gallery/4.jpg", "alt": "Outdoor garden lighting", "caption": "Garden lighting, Sremska Kamenica" },
+      { "image": "/gallery/5.jpg", "alt": "Office electrical installation", "caption": "Office fit-out, Bulevar" },
+      { "image": "/gallery/6.jpg", "alt": "Staircase LED strip lighting", "caption": "Staircase LEDs, Petrovaradin" }
+    ]
+  },
+  "testimonials": {
+    "title": "What clients say",
+    "items": [
+      {
+        "name": "Dragan M.",
+        "role": "Apartment owner, Liman",
+        "text": "Three electricians before them couldn't find why the breaker kept tripping. They found a damaged cable in the wall within an hour."
+      },
+      {
+        "name": "Sanja K.",
+        "role": "Homeowner, Veternik",
+        "text": "Panel upgrade plus EV charger, done in a day, exactly at the quoted price. The labelled breakers alone were worth it."
+      },
+      {
+        "name": "Restoran Dunav",
+        "role": "Commercial client",
+        "text": "They rewired our kitchen between closing Sunday and opening Tuesday. Inspection passed first try."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Standard rates",
+    "subtitle": "Larger jobs quoted in writing after a site visit.",
+    "plans": [
+      { "name": "Call-out & diagnosis", "price": "3,000 RSD", "period": "per visit", "description": "We find the fault and quote the repair. Fee waived if you book the work." },
+      { "name": "Emergency call-out", "price": "6,000 RSD", "period": "nights & weekends", "description": "For outages and hazards that can't wait for morning." },
+      { "name": "Safety inspection", "price": "from 8,000 RSD", "period": "per apartment", "description": "Full test with written report — recommended before buying." }
+    ]
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "question": "My breaker keeps tripping. Is that dangerous?",
+        "answer": "It's the breaker doing its job — but the cause needs finding. It can be an overloaded circuit, a faulty appliance, or damaged wiring. Don't swap in a bigger breaker; that's how fires start. Call us and we'll diagnose it."
+      },
+      {
+        "question": "Do you handle small jobs, like one socket?",
+        "answer": "Yes. Small jobs are scheduled within a few days and charged at the standard call-out rate plus materials. No job is too small if it involves electricity done wrong."
+      },
+      {
+        "question": "My building has old aluminium wiring. Do I need a full rewire?",
+        "answer": "Not always. We inspect first — sometimes targeted replacement of the most stressed circuits is enough. You get an honest written assessment either way, with prices for both options."
+      },
+      {
+        "question": "Are you available for emergencies?",
+        "answer": "Yes, including nights and weekends for genuine hazards: total outages, burning smells, sparking, or water near electrics. Call — don't email — and we'll talk you through making it safe until we arrive."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Electrical problem?",
+    "subtitle": "Call for an honest diagnosis and a written quote.",
+    "button": "Get a Quote",
+    "secondaryButton": "Call +381 21 333 040"
+  },
+  "contact": {
+    "title": "Get in touch",
+    "subtitle": "Emergencies by phone, everything else however suits you.",
+    "phone": "+381 21 333 040",
+    "email": "info@voltelektro.rs",
+    "address": "Futoška 45, Novi Sad",
+    "hours": "Mon–Fri 7:00–17:00 · emergencies 24/7",
+    "form": {
+      "nameLabel": "Your name",
+      "emailLabel": "Email",
+      "phoneLabel": "Phone",
+      "messageLabel": "What needs fixing?",
+      "submitLabel": "Send message"
+    }
+  },
+  "footer": {
+    "businessName": "Volt Elektro",
+    "description": "Licensed electricians for Novi Sad and surroundings.",
+    "phone": "+381 21 333 040",
+    "email": "info@voltelektro.rs",
+    "address": "Futoška 45, Novi Sad"
+  }
+}

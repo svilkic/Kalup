@@ -1,0 +1,185 @@
+{
+  "navbar": {
+    "links": [
+      { "label": "Home", "href": "#home" },
+      { "label": "Programs", "href": "#services" },
+      { "label": "About", "href": "#about" },
+      { "label": "Memberships", "href": "#pricing" },
+      { "label": "Contact", "href": "#contact" }
+    ],
+    "ctaLabel": "Free Trial Class"
+  },
+  "hero": {
+    "eyebrow": "Small-Group Training · Novi Sad",
+    "title": "Training that fits your actual life",
+    "subtitle": "Classes of eight, coaches who know your name and your bad knee, and programs that start where you are — not where an app thinks you should be.",
+    "primaryButton": "Book a Free Trial",
+    "secondaryButton": "See Programs",
+    "image": "/hero.jpg",
+    "imageAlt": "Small group training session with a coach",
+    "badges": ["Max 8 per class", "First class free", "No long-term contracts"]
+  },
+  "services": {
+    "title": "Programs",
+    "subtitle": "Pick a track — every session is still coached to your level.",
+    "items": [
+      {
+        "title": "Small-group strength",
+        "description": "Our core program: barbell and dumbbell strength training in groups of eight, with a coach correcting your form every session. Three levels, so beginners never share a bar with powerlifters.",
+        "icon": "Dumbbell",
+        "image": "/services/strength.jpg"
+      },
+      {
+        "title": "Personal training",
+        "description": "One-on-one coaching for specific goals — rehab, sport prep, or just privacy while you learn.",
+        "icon": "Activity"
+      },
+      {
+        "title": "Conditioning",
+        "description": "45 minutes of intervals that scale to your fitness, not a leaderboard.",
+        "icon": "Timer"
+      },
+      {
+        "title": "Mobility & recovery",
+        "description": "The unglamorous class your back will thank you for. Great alongside strength work.",
+        "icon": "Heart"
+      }
+    ]
+  },
+  "about": {
+    "title": "About the studio",
+    "subtitle": "We opened Forma because big gyms coach nobody.",
+    "body": "After ten years coaching in commercial gyms, Ana and Vuk opened Studio Forma in 2019 with one idea: caps on class size make coaching possible. Eight people per class means every rep gets seen. Our members range from 19 to 67, and the median member has been here over two years — retention we're prouder of than any before-and-after photo.",
+    "image": "/about.jpg",
+    "imageAlt": "Coach Ana demonstrating a squat",
+    "stats": [
+      { "value": "8", "label": "Max per class" },
+      { "value": "5", "label": "Certified coaches" },
+      { "value": "2+ yrs", "label": "Median membership" }
+    ]
+  },
+  "features": {
+    "title": "Why people stay",
+    "items": [
+      { "title": "Real coaching", "description": "Every class is coached, not supervised. Form gets fixed, weights get adjusted.", "icon": "Users" },
+      { "title": "Levels, not chaos", "description": "Beginner, intermediate, advanced tracks — you're never in over your head.", "icon": "Gauge" },
+      { "title": "Book from your phone", "description": "Reserve or cancel class spots up to two hours before.", "icon": "Calendar" },
+      { "title": "No contracts", "description": "Monthly memberships you can pause or cancel anytime.", "icon": "Check" },
+      { "title": "Injuries respected", "description": "Tell us about your shoulder — every exercise has a substitute.", "icon": "HeartPulse" },
+      { "title": "6 AM to 9 PM", "description": "Classes before work, after work, and Saturday mornings.", "icon": "Clock" }
+    ]
+  },
+  "gallery": {
+    "title": "Inside the studio",
+    "items": [
+      { "image": "/gallery/1.jpg", "alt": "Barbell rack and lifting platforms", "caption": "Strength area" },
+      { "image": "/gallery/2.jpg", "alt": "Group class mid-session", "caption": "Evening class" },
+      { "image": "/gallery/3.jpg", "alt": "Turf strip with sleds", "caption": "Conditioning zone" },
+      { "image": "/gallery/4.jpg", "alt": "Mobility class on mats", "caption": "Mobility hour" },
+      { "image": "/gallery/5.jpg", "alt": "Locker room", "caption": "Locker rooms" },
+      { "image": "/gallery/6.jpg", "alt": "Members chatting after class", "caption": "After class" }
+    ]
+  },
+  "testimonials": {
+    "title": "From our members",
+    "items": [
+      {
+        "name": "Tijana P.",
+        "role": "Member for 3 years",
+        "text": "I'd quit four gyms before this one. The difference is simple: someone actually notices whether I show up and how I move."
+      },
+      {
+        "name": "Miloš V.",
+        "role": "Started at 54",
+        "text": "I was worried I'd be the old guy slowing everyone down. Turns out half my class is my age and my deadlift is now double my starting one."
+      },
+      {
+        "name": "Katarina J.",
+        "role": "Post-injury member",
+        "text": "Came in after a knee operation with a physio's clearance. Every session was adapted, nothing was skipped, and a year later I forget which knee it was."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Memberships",
+    "subtitle": "All memberships are monthly — pause or cancel anytime. First class is free.",
+    "featuredLabel": "Most popular",
+    "plans": [
+      {
+        "name": "2× per week",
+        "price": "6,900 RSD",
+        "period": "per month",
+        "description": "Eight classes a month, any program.",
+        "features": ["Any class type", "App booking", "Pause anytime"],
+        "button": "Start with a free class",
+        "featured": false
+      },
+      {
+        "name": "Unlimited",
+        "price": "9,900 RSD",
+        "period": "per month",
+        "description": "Train as often as you like, all programs included.",
+        "features": ["All classes, all levels", "Priority booking", "Free program consultation", "Pause anytime"],
+        "button": "Start with a free class",
+        "featured": true
+      },
+      {
+        "name": "Personal training",
+        "price": "from 3,500 RSD",
+        "period": "per session",
+        "description": "One-on-one, scheduled around you.",
+        "features": ["Individual program", "Flexible scheduling", "Packages of 5 or 10"],
+        "button": "Ask about availability",
+        "featured": false
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "question": "I'm completely out of shape. Can I start?",
+        "answer": "That's exactly who the beginner track is for. Your first month uses lighter loads while a coach teaches you the basic movements properly. Nobody is watching you — everyone else is too busy with their own bar."
+      },
+      {
+        "question": "How does the free trial work?",
+        "answer": "Pick any beginner-friendly class, come 15 minutes early, and a coach walks you through everything. No payment details, no sales pitch afterwards — if it's for you, you'll know."
+      },
+      {
+        "question": "What if I have an old injury?",
+        "answer": "Tell your coach at the first class. Every exercise in our programs has substitutes, and if you're post-rehab we're happy to coordinate with your physiotherapist."
+      },
+      {
+        "question": "Can I really pause my membership?",
+        "answer": "Yes — from the app, in two taps, for two weeks to three months. Travel and life happen; a membership shouldn't punish you for it."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Your first class is free",
+    "subtitle": "Come try a session — worst case, you get a good workout out of it.",
+    "button": "Book a Free Trial"
+  },
+  "contact": {
+    "title": "Come by",
+    "subtitle": "Ground floor, plenty of parking, showers on site.",
+    "phone": "+381 21 890 060",
+    "email": "zdravo@studioforma.rs",
+    "address": "Cara Dušana 71, Novi Sad",
+    "hours": "Mon–Fri 6:00–21:00, Sat 8:00–13:00",
+    "form": {
+      "nameLabel": "Your name",
+      "emailLabel": "Email",
+      "phoneLabel": "Phone",
+      "messageLabel": "Which program interests you?",
+      "submitLabel": "Send message"
+    }
+  },
+  "footer": {
+    "businessName": "Studio Forma",
+    "description": "Small-group and personal training in Novi Sad.",
+    "phone": "+381 21 890 060",
+    "email": "zdravo@studioforma.rs",
+    "address": "Cara Dušana 71, Novi Sad"
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "navbar": {
+    "links": [
+      { "label": "Home", "href": "#home" },
+      { "label": "Kitchen", "href": "#services" },
+      { "label": "Menu", "href": "#pricing" },
+      { "label": "Gallery", "href": "#gallery" },
+      { "label": "Find us", "href": "#contact" }
+    ],
+    "ctaLabel": "Reserve a Table"
+  },
+  "hero": {
+    "eyebrow": "Fish Restaurant · Danube Bank, Novi Sad",
+    "title": "River fish, done the old way",
+    "subtitle": "Carp, catfish, and pike-perch from local fishermen, a fish soup recipe that hasn't changed since 1987, and a terrace twenty steps from the water.",
+    "primaryButton": "Reserve a Table",
+    "secondaryButton": "See the Menu",
+    "image": "/hero.jpg",
+    "imageAlt": "Terrace tables overlooking the Danube at sunset",
+    "badges": ["Terrace on the Danube", "Fresh catch daily", "Since 1987"]
+  },
+  "services": {
+    "title": "From our kitchen",
+    "subtitle": "A short menu that follows the river and the season.",
+    "items": [
+      {
+        "title": "Fish soup",
+        "description": "The house classic, simmered for hours in a kettle over open fire. Served with homemade bread and a warning: it's spicy.",
+        "icon": "ChefHat",
+        "image": "/services/soup.jpg"
+      },
+      {
+        "title": "Grilled river fish",
+        "description": "Whole carp, catfish steaks, and pike-perch fillets over charcoal, with garlic, parsley, and nothing that hides the fish.",
+        "icon": "UtensilsCrossed",
+        "image": "/services/grill.jpg"
+      },
+      {
+        "title": "Seasonal sides & salads",
+        "description": "Whatever the market had that morning — young potatoes, chard, tomato salad in summer, pickled peppers in winter.",
+        "icon": "Salad",
+        "image": "/services/sides.jpg"
+      },
+      {
+        "title": "Local wines & rakija",
+        "description": "A short list from Fruška Gora wineries, plus the quince rakija our neighbour makes and we refuse to reveal from whom.",
+        "icon": "Wine",
+        "image": "/services/wine.jpg"
+      }
+    ]
+  },
+  "about": {
+    "title": "The house",
+    "subtitle": "Three generations by the same stretch of river.",
+    "body": "Đorđe Šaranović opened the čarda in 1987 with four tables and one kettle. His son runs the kitchen today; his granddaughter runs the floor. The menu is short on purpose — we'd rather do eight dishes properly than forty from a freezer. Fish comes from local fishermen we've known for decades, and when the river gives nothing, we say so instead of serving yesterday's catch.",
+    "stats": [
+      { "value": "1987", "label": "Open since" },
+      { "value": "8", "label": "Dishes on the menu" },
+      { "value": "60", "label": "Seats on the terrace" }
+    ]
+  },
+  "features": {
+    "title": "Good to know",
+    "items": [
+      { "title": "Terrace by the water", "description": "Covered and heated in the shoulder seasons.", "icon": "Home" },
+      { "title": "Reservations by phone", "description": "Weekends fill up by Thursday — call ahead.", "icon": "Phone" },
+      { "title": "Live tamburica", "description": "Friday and Saturday evenings from 20:00.", "icon": "Music" },
+      { "title": "Kids welcome", "description": "High chairs, a smaller fish plate, and space to run.", "icon": "Heart" },
+      { "title": "Parking on site", "description": "Free parking and a bike rack by the entrance.", "icon": "Car" },
+      { "title": "Card or cash", "description": "All cards accepted, terrace included.", "icon": "Check" }
+    ]
+  },
+  "gallery": {
+    "title": "The place and the plates",
+    "items": [
+      { "image": "/gallery/1.jpg", "alt": "Fish soup served in a small kettle", "caption": "The famous kettle" },
+      { "image": "/gallery/2.jpg", "alt": "Grilled carp on a wooden board", "caption": "Carp from the charcoal" },
+      { "image": "/gallery/3.jpg", "alt": "Terrace at golden hour", "caption": "Terrace at sunset" },
+      { "image": "/gallery/4.jpg", "alt": "Tamburica band playing between tables", "caption": "Friday tamburica" },
+      { "image": "/gallery/5.jpg", "alt": "Glasses of white wine on a checkered tablecloth", "caption": "Fruška Gora whites" },
+      { "image": "/gallery/6.jpg", "alt": "The dining room in winter", "caption": "Inside, come winter" }
+    ]
+  },
+  "testimonials": {
+    "title": "Guests say",
+    "items": [
+      {
+        "name": "Vladimir K.",
+        "role": "Guest since the nineties",
+        "text": "I've eaten fish soup on three continents. The one here is the standard I judge all the others by."
+      },
+      {
+        "name": "Elena & Paolo",
+        "role": "Tourists from Italy",
+        "text": "Our hotel receptionist whispered this address like a secret. Now we understand why. Order the catfish."
+      },
+      {
+        "name": "Nikola P.",
+        "role": "Celebrated his 60th here",
+        "text": "Forty people, tamburica until midnight, and not a single thing to complain about. They treat you like family."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "From the menu",
+    "subtitle": "The short version — the full menu waits at the table. Prices per portion.",
+    "plans": [
+      { "name": "Fish soup (kettle for two)", "price": "1,400 RSD", "description": "The house classic, spicy" },
+      { "name": "Grilled carp", "price": "1,900 RSD", "description": "Whole fish, garlic and parsley" },
+      { "name": "Catfish steak", "price": "2,200 RSD", "description": "Charcoal-grilled, lemon butter" },
+      { "name": "Pike-perch fillet", "price": "2,400 RSD", "description": "The gentle one, kids love it" },
+      { "name": "Seasonal salad", "price": "450 RSD", "description": "Whatever the market gave" },
+      { "name": "House quince rakija", "price": "350 RSD", "description": "From the neighbour, 0.03l" }
+    ]
+  },
+  "faq": {
+    "title": "Before you come",
+    "items": [
+      {
+        "question": "Do I need a reservation?",
+        "answer": "Weekdays you'll usually find a table. Friday and Saturday evenings, and any sunny weekend afternoon, book by phone a few days ahead — the terrace goes first."
+      },
+      {
+        "question": "Is there anything for people who don't eat fish?",
+        "answer": "A few grilled meat dishes and honest vegetable sides. But we'll be straight with you: people come here for the fish."
+      },
+      {
+        "question": "How spicy is the fish soup, really?",
+        "answer": "Properly spicy — it's an alas soup, that's the point. Ask for the mild kettle if you're unsure; we make both without judgment."
+      },
+      {
+        "question": "Can you host a celebration?",
+        "answer": "Up to sixty people with the terrace, forty inside. For groups over fifteen we agree on a set menu in advance so the kitchen can do it right."
+      }
+    ]
+  },
+  "cta": {
+    "title": "The terrace is waiting",
+    "subtitle": "Call to reserve — especially if you want the tables by the railing.",
+    "button": "Reserve a Table",
+    "secondaryButton": "Call +381 21 700 350"
+  },
+  "contact": {
+    "title": "Find us on the bank",
+    "subtitle": "On the Danube bank, a ten-minute drive from the centre.",
+    "phone": "+381 21 700 350",
+    "email": "rezervacije@kodsarana.rs",
+    "address": "Ribarsko ostrvo 12, Novi Sad",
+    "hours": "Tue–Sun 12:00–23:00, closed Mondays"
+  },
+  "footer": {
+    "businessName": "Kod Šarana",
+    "description": "Family fish restaurant on the Danube since 1987.",
+    "phone": "+381 21 700 350",
+    "email": "rezervacije@kodsarana.rs",
+    "address": "Ribarsko ostrvo 12, Novi Sad"
+  }
+}

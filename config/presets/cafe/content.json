@@ -1,0 +1,142 @@
+{
+  "navbar": {
+    "links": [
+      { "label": "Home", "href": "#home" },
+      { "label": "Menu", "href": "#services" },
+      { "label": "About", "href": "#about" },
+      { "label": "Gallery", "href": "#gallery" },
+      { "label": "Find us", "href": "#contact" }
+    ],
+    "ctaLabel": "Find Us"
+  },
+  "hero": {
+    "eyebrow": "Specialty Coffee · Novi Sad",
+    "title": "Good coffee, no fuss",
+    "subtitle": "We roast small batches every week and brew them the way each bean deserves. Come for the espresso, stay for the quiet corner by the window.",
+    "primaryButton": "Find Us",
+    "secondaryButton": "See the Menu",
+    "image": "/hero.jpg",
+    "imageAlt": "Barista pouring latte art at the counter",
+    "badges": ["Roasted in-house", "Weekend brunch", "Dog friendly"]
+  },
+  "services": {
+    "title": "What we serve",
+    "subtitle": "Short menu, done properly.",
+    "items": [
+      {
+        "title": "Espresso bar",
+        "description": "Single-origin espresso, flat whites, and filter brews. Ask what's on the grinder this week — it changes.",
+        "icon": "Coffee",
+        "image": "/services/espresso.jpg"
+      },
+      {
+        "title": "Weekend brunch",
+        "description": "Saturdays and Sundays until 14:00: eggs, sourdough, and a short seasonal menu. No reservations, it moves fast.",
+        "icon": "Croissant"
+      },
+      {
+        "title": "Cakes & pastries",
+        "description": "Baked each morning by a small local bakery we've worked with since day one.",
+        "icon": "Cake"
+      },
+      {
+        "title": "Beans to take home",
+        "description": "250g bags of our weekly roast, whole bean or ground for your brewer. We'll write brewing notes on the bag.",
+        "icon": "Package"
+      }
+    ]
+  },
+  "about": {
+    "title": "A small roastery with tables",
+    "subtitle": "Zrno means 'bean' — that's roughly the whole story.",
+    "body": "We started roasting at home in 2019, sold bags to friends, and eventually needed a bigger machine and a place to put it. The café grew around the roaster, not the other way round. We keep the menu short so everything on it is something we're proud of, and we'd rather tell you which brew suits your taste than upsell you the most expensive one.",
+    "stats": [
+      { "value": "2019", "label": "First roast" },
+      { "value": "6", "label": "Origins on rotation" },
+      { "value": "300+", "label": "Bags roasted monthly" }
+    ]
+  },
+  "features": {
+    "title": "Good to know",
+    "items": [
+      { "title": "Fast wifi", "description": "Fiber connection and plenty of sockets. Laptops welcome on weekdays.", "icon": "Wifi" },
+      { "title": "Dog friendly", "description": "Water bowls at the door and treats behind the counter.", "icon": "Heart" },
+      { "title": "Vinyl evenings", "description": "First Friday of the month someone brings records. Come early.", "icon": "Music" },
+      { "title": "Quiet mornings", "description": "Before 9:00 it's just you, the grinder, and the newspaper.", "icon": "Clock" },
+      { "title": "Oat & almond milk", "description": "No surcharge. Bad coffee is the only thing we charge extra for — by not serving it.", "icon": "Leaf" },
+      { "title": "Loyalty card", "description": "Tenth coffee free. Paper card, no app, no tracking.", "icon": "Check" }
+    ]
+  },
+  "gallery": {
+    "title": "The place",
+    "items": [
+      { "image": "/gallery/1.jpg", "alt": "Espresso machine and counter", "caption": "The bar" },
+      { "image": "/gallery/2.jpg", "alt": "Coffee roaster in the back room", "caption": "The roaster" },
+      { "image": "/gallery/3.jpg", "alt": "Window seat with morning light", "caption": "Window corner" },
+      { "image": "/gallery/4.jpg", "alt": "Brunch plates on a wooden table", "caption": "Weekend brunch" },
+      { "image": "/gallery/5.jpg", "alt": "Shelf with coffee bags for sale", "caption": "Beans to go" },
+      { "image": "/gallery/6.jpg", "alt": "Guests and a dog by the entrance", "caption": "Regulars" }
+    ]
+  },
+  "testimonials": {
+    "title": "What people say",
+    "items": [
+      {
+        "name": "Marko V.",
+        "role": "Works here most mornings",
+        "text": "Best filter coffee in town and nobody gives you a look for staying three hours with a laptop."
+      },
+      {
+        "name": "Nina P.",
+        "role": "Weekend regular",
+        "text": "The brunch is small but everything on the plate is right. Get there before 11 or be ready to wait."
+      },
+      {
+        "name": "Luka T.",
+        "role": "Home brewer",
+        "text": "I buy their beans every other week. The brewing notes on the bag actually make a difference."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Questions we get a lot",
+    "items": [
+      {
+        "question": "Do you take reservations?",
+        "answer": "No — it's first come, first served. Mornings and late afternoons are usually easy to find a seat."
+      },
+      {
+        "question": "Can I work from the café?",
+        "answer": "On weekdays, absolutely — there's fast wifi and sockets by most tables. On weekend brunch hours we ask laptops to take a break."
+      },
+      {
+        "question": "Do you sell beans?",
+        "answer": "Yes, 250g bags of whatever we roasted that week, whole bean or ground to order. Ask for brewing notes."
+      },
+      {
+        "question": "Is there anything decaf or non-coffee?",
+        "answer": "A proper decaf espresso, a small tea selection, house lemonade, and hot chocolate in winter."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Come by for a cup",
+    "subtitle": "Near the city park, open from 7:30 on weekdays.",
+    "button": "Get Directions"
+  },
+  "contact": {
+    "title": "Find us",
+    "subtitle": "Two minutes from the park entrance.",
+    "phone": "+381 21 444 020",
+    "email": "zdravo@zrno.rs",
+    "address": "Park Street 3, Novi Sad",
+    "hours": "Mon–Fri 7:30–19:00, Sat–Sun 9:00–15:00"
+  },
+  "footer": {
+    "businessName": "Zrno",
+    "description": "Specialty coffee bar and small roastery in Novi Sad.",
+    "phone": "+381 21 444 020",
+    "email": "zdravo@zrno.rs",
+    "address": "Park Street 3, Novi Sad"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "brand": {
+    "logo": "",
+    "logoText": "Bilans",
+    "favicon": "/logo.svg"
+  },
+  "theme": {
+    "mainColor": "#065F46",
+    "secondaryColor": "#B45309",
+    "accentColor": "#022C22",
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#0F172A",
+    "mutedTextColor": "#64748B",
+    "borderRadius": "8px",
+    "fontFamily": "Work Sans",
+    "containerWidth": "1120px"
+  },
+  "layout": {
+    "navbarVariant": 10,
+    "heroVariant": 5,
+    "servicesVariant": 12,
+    "aboutVariant": 11,
+    "featuresVariant": 13,
+    "galleryVariant": 1,
+    "testimonialsVariant": 8,
+    "pricingVariant": 13,
+    "faqVariant": 9,
+    "ctaVariant": 13,
+    "contactVariant": 15,
+    "footerVariant": 12
+  },
+  "sections": {
+    "showServices": true,
+    "showAbout": true,
+    "showFeatures": true,
+    "showGallery": false,
+    "showTestimonials": true,
+    "showPricing": true,
+    "showFAQ": true,
+    "showCTA": true,
+    "showContact": true,
+    "showCallButton": false
+  },
+  "seo": {
+    "siteUrl": "https://example.com",
+    "defaultTitle": "Bilans — Accounting Office in Novi Sad",
+    "defaultDescription": "Accounting and bookkeeping for entrepreneurs and small companies in Novi Sad. Monthly packages, deadlines met without reminders, and answers in plain language.",
+    "keywords": ["accounting", "bookkeeping", "Novi Sad", "taxes", "payroll"],
+    "businessType": "AccountingService",
+    "language": "en"
+  }
+}

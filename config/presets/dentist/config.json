@@ -1,0 +1,52 @@
+{
+  "brand": {
+    "logo": "",
+    "logoText": "Petrović Dental",
+    "favicon": "/logo.svg"
+  },
+  "theme": {
+    "mainColor": "#0369A1",
+    "secondaryColor": "#0D9488",
+    "accentColor": "#0C4A6E",
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#0F172A",
+    "mutedTextColor": "#64748B",
+    "borderRadius": "16px",
+    "fontFamily": "DM Sans",
+    "containerWidth": "1160px"
+  },
+  "layout": {
+    "navbarVariant": 1,
+    "heroVariant": 8,
+    "servicesVariant": 6,
+    "aboutVariant": 1,
+    "featuresVariant": 1,
+    "galleryVariant": 3,
+    "testimonialsVariant": 2,
+    "pricingVariant": 3,
+    "faqVariant": 3,
+    "ctaVariant": 4,
+    "contactVariant": 2,
+    "footerVariant": 2
+  },
+  "sections": {
+    "showServices": true,
+    "showAbout": true,
+    "showFeatures": true,
+    "showGallery": true,
+    "showTestimonials": true,
+    "showPricing": true,
+    "showFAQ": true,
+    "showCTA": true,
+    "showContact": true,
+    "showCallButton": true
+  },
+  "seo": {
+    "siteUrl": "https://example.com",
+    "defaultTitle": "Petrović Dental — Dentist in Novi Sad",
+    "defaultDescription": "Family dental practice in Novi Sad. Check-ups, fillings, cleaning, and cosmetic dentistry — gentle with nervous patients, clear about prices.",
+    "keywords": ["dentist", "Novi Sad", "dental practice", "teeth cleaning", "fillings"],
+    "businessType": "Dentist",
+    "language": "en"
+  }
+}

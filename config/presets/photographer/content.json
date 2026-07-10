@@ -1,0 +1,144 @@
+{
+  "navbar": {
+    "links": [
+      { "label": "Home", "href": "#home" },
+      { "label": "Work", "href": "#gallery" },
+      { "label": "Services", "href": "#services" },
+      { "label": "Packages", "href": "#pricing" },
+      { "label": "Contact", "href": "#contact" }
+    ],
+    "ctaLabel": "Check My Date"
+  },
+  "hero": {
+    "eyebrow": "Photographer · Novi Sad",
+    "title": "Photographs that look like the day actually felt",
+    "subtitle": "I shoot weddings, portraits, and events in a quiet documentary style — real moments over stiff poses, light over filters. If you hate being photographed, we'll get along fine.",
+    "primaryButton": "Check My Date",
+    "secondaryButton": "See the Work",
+    "image": "/hero.jpg",
+    "imageAlt": "Candid wedding photograph in warm evening light"
+  },
+  "services": {
+    "title": "What I shoot",
+    "items": [
+      {
+        "title": "Weddings",
+        "description": "Full-day coverage from morning preparations to the last dance. I work quietly from the edges — most guests won't remember I was there, but the photos will show they were."
+      },
+      {
+        "title": "Portraits",
+        "description": "Individuals, couples, and families, on location around Novi Sad or in the studio. Sessions are slow and unhurried; the good frames come after you forget the camera."
+      },
+      {
+        "title": "Events & business",
+        "description": "Conferences, openings, and team photos that don't look like stock photography. Delivered fast, licensed for whatever you need them for."
+      }
+    ]
+  },
+  "about": {
+    "title": "About me",
+    "subtitle": "Lena Popović — fifteen years behind the camera, still nervous before every wedding.",
+    "body": "I started in newsrooms, and it shows: I look for moments, not setups. My couples get an unfussy day, a gallery within two weeks, and prints that will survive longer than hard drives. I photograph a limited number of weddings each year so every one gets full attention — including the boring-but-important parts like scouting your venue's light beforehand.",
+    "stats": [
+      { "value": "15", "label": "Years shooting" },
+      { "value": "200+", "label": "Weddings photographed" },
+      { "value": "14 days", "label": "Gallery delivery" }
+    ]
+  },
+  "features": {
+    "title": "How I work",
+    "items": [
+      { "title": "Documentary first", "description": "Real moments as they happen. Posed photos take twenty minutes of your day, not three hours." },
+      { "title": "Two weeks, not six months", "description": "Your full edited gallery lands within fourteen days. Sneak peeks within 48 hours." },
+      { "title": "Backup everything", "description": "Two camera bodies, dual cards, three copies of every file before I sleep." },
+      { "title": "No hidden fees", "description": "The package price includes editing, the online gallery, and print rights." }
+    ]
+  },
+  "gallery": {
+    "title": "Selected work",
+    "items": [
+      { "image": "/gallery/1.jpg", "alt": "Bride laughing during preparations", "caption": "Morning, before" },
+      { "image": "/gallery/2.jpg", "alt": "Couple under confetti at the exit", "caption": "The exit" },
+      { "image": "/gallery/3.jpg", "alt": "Grandfather dancing with granddaughter", "caption": "First and last dance" },
+      { "image": "/gallery/4.jpg", "alt": "Portrait in wheat field at dusk", "caption": "Golden hour portrait" },
+      { "image": "/gallery/5.jpg", "alt": "Business portrait against window light", "caption": "Studio portrait" },
+      { "image": "/gallery/6.jpg", "alt": "Conference speaker under stage light", "caption": "Event coverage" }
+    ]
+  },
+  "testimonials": {
+    "title": "Kind words",
+    "items": [
+      {
+        "name": "Mina & Aleksandar",
+        "role": "Wedding, June 2025",
+        "text": "We forgot she was there — and somehow she caught every moment we would have wanted to remember, including ones we missed ourselves."
+      },
+      {
+        "name": "Jovan T.",
+        "role": "Family portraits",
+        "text": "Our four-year-old refuses to pose for anyone. Lena just followed him around the orchard for an hour and the photos are the best we have."
+      },
+      {
+        "name": "Kreativna agencija Okvir",
+        "role": "Corporate client",
+        "text": "Team photos that people actually agreed to put on the website. That has literally never happened before."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Packages",
+    "subtitle": "Every package includes editing, an online gallery, and print rights. Travel within 50 km included.",
+    "plans": [
+      { "name": "Portrait session", "price": "from 15,000 RSD", "period": "90 minutes", "description": "On location or studio, 40+ edited photographs." },
+      { "name": "Event coverage", "price": "from 25,000 RSD", "period": "up to 4 hours", "description": "Conferences, openings, celebrations. Fast delivery." },
+      { "name": "Wedding day", "price": "from 90,000 RSD", "period": "full day", "description": "Preparations to party, 500+ edited photographs, sneak peek in 48h." }
+    ]
+  },
+  "faq": {
+    "title": "Common questions",
+    "items": [
+      {
+        "question": "How far in advance should we book?",
+        "answer": "For weddings in the May–October season, six to twelve months. Portraits and events can usually fit within two or three weeks."
+      },
+      {
+        "question": "We're awkward in front of cameras. Will that be a problem?",
+        "answer": "You're my favourite kind of client. The documentary approach exists exactly for you — no prolonged posing, no 'now look at each other and laugh'. We walk, you talk, I shoot."
+      },
+      {
+        "question": "Do we get the unedited files?",
+        "answer": "No — the edit is half the craft, and outtakes with closed eyes serve nobody. You get every good frame, fully edited, and that's genuinely everything worth having."
+      },
+      {
+        "question": "Can we print the photos ourselves?",
+        "answer": "Yes, print rights are included in every package. I'll also gladly recommend the lab I trust for large formats — there's a real difference."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Have a date in mind?",
+    "subtitle": "Tell me about your day — if I'm free, we'll meet for coffee and see if we click.",
+    "button": "Check My Date"
+  },
+  "contact": {
+    "title": "Get in touch",
+    "subtitle": "Tell me what you're planning and when. I answer within a day.",
+    "phone": "+381 63 555 214",
+    "email": "lena@studiolena.rs",
+    "address": "Studio: Laze Telečkog 9, Novi Sad",
+    "hours": "By appointment",
+    "form": {
+      "nameLabel": "Your name",
+      "emailLabel": "Email",
+      "phoneLabel": "Phone",
+      "messageLabel": "What are you planning, and when?",
+      "submitLabel": "Send inquiry"
+    }
+  },
+  "footer": {
+    "businessName": "Studio Lena",
+    "description": "Wedding, portrait, and event photography in Novi Sad.",
+    "phone": "+381 63 555 214",
+    "email": "lena@studiolena.rs"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "brand": {
+    "logo": "",
+    "logoText": "Studio Mila",
+    "favicon": "/logo.svg"
+  },
+  "theme": {
+    "mainColor": "#9F1239",
+    "secondaryColor": "#0D9488",
+    "accentColor": "#1C1917",
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#1C1917",
+    "mutedTextColor": "#78716C",
+    "borderRadius": "24px",
+    "fontFamily": "Sora",
+    "containerWidth": "1160px"
+  },
+  "layout": {
+    "navbarVariant": 4,
+    "heroVariant": 11,
+    "servicesVariant": 2,
+    "aboutVariant": 6,
+    "featuresVariant": 6,
+    "galleryVariant": 9,
+    "testimonialsVariant": 9,
+    "pricingVariant": 3,
+    "faqVariant": 3,
+    "ctaVariant": 5,
+    "contactVariant": 7,
+    "footerVariant": 9
+  },
+  "sections": {
+    "showServices": true,
+    "showAbout": true,
+    "showFeatures": true,
+    "showGallery": true,
+    "showTestimonials": true,
+    "showPricing": true,
+    "showFAQ": true,
+    "showCTA": true,
+    "showContact": true
+  },
+  "seo": {
+    "siteUrl": "https://example.com",
+    "defaultTitle": "Studio Mila — Hair Salon in Novi Sad",
+    "defaultDescription": "Cuts, color, and styling in the centre of Novi Sad. Book by phone or message — evening appointments available.",
+    "keywords": ["hair salon", "Novi Sad", "haircut", "hair color", "balayage"],
+    "businessType": "HairSalon",
+    "language": "en"
+  }
+}

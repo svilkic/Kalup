@@ -1,0 +1,52 @@
+{
+  "brand": {
+    "logo": "",
+    "logoText": "Studio Forma",
+    "favicon": "/logo.svg"
+  },
+  "theme": {
+    "mainColor": "#7C3AED",
+    "secondaryColor": "#10B981",
+    "accentColor": "#2E1065",
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#1E1B4B",
+    "mutedTextColor": "#6B7280",
+    "borderRadius": "24px",
+    "fontFamily": "Manrope",
+    "containerWidth": "1200px"
+  },
+  "layout": {
+    "navbarVariant": 4,
+    "heroVariant": 10,
+    "servicesVariant": 8,
+    "aboutVariant": 6,
+    "featuresVariant": 7,
+    "galleryVariant": 2,
+    "testimonialsVariant": 6,
+    "pricingVariant": 2,
+    "faqVariant": 2,
+    "ctaVariant": 7,
+    "contactVariant": 4,
+    "footerVariant": 9
+  },
+  "sections": {
+    "showServices": true,
+    "showAbout": true,
+    "showFeatures": true,
+    "showGallery": true,
+    "showTestimonials": true,
+    "showPricing": true,
+    "showFAQ": true,
+    "showCTA": true,
+    "showContact": true,
+    "showCallButton": false
+  },
+  "seo": {
+    "siteUrl": "https://example.com",
+    "defaultTitle": "Studio Forma — Small-Group Training in Novi Sad",
+    "defaultDescription": "Small-group and personal training in Novi Sad. Max eight people per class, real coaching, and programs built around your starting point — not someone else's.",
+    "keywords": ["fitness", "personal training", "Novi Sad", "small group training", "gym"],
+    "businessType": "ExerciseGym",
+    "language": "en"
+  }
+}

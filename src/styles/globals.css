@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+/*
+ * Map Tailwind design tokens to the CSS variables that layout.tsx generates
+ * from config.json. Changing config.theme re-themes every utility below:
+ *   bg-main, text-secondary, bg-accent, bg-page, text-body, text-muted,
+ *   rounded-brand, and the derived tints (main-soft, main-strong).
+ */
+@theme inline {
+  --color-main: var(--main);
+  --color-main-soft: var(--main-soft);
+  --color-main-strong: var(--main-strong);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+  --color-page: var(--bg);
+  --color-body: var(--text);
+  --color-muted: var(--muted);
+  --radius-brand: var(--radius);
+}
+
+:root {
+  /* Derived tints — computed from the config colors, no extra config needed. */
+  --main-soft: color-mix(in srgb, var(--main) 8%, white);
+  --main-strong: color-mix(in srgb, var(--main) 85%, black);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background-color: var(--main);
+  color: #fff;
+}
+
+/* Native <details> FAQ: hide the default marker, rotate our chevron. */
+details > summary {
+  list-style: none;
+  cursor: pointer;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+details[open] .faq-chevron {
+  transform: rotate(180deg);
+}
+.faq-chevron {
+  transition: transform 0.2s ease;
+}
+
+/* Horizontal scroll gallery (CSS scroll snap — no JS carousel). */
+.snap-gallery {
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+.snap-gallery > * {
+  scroll-snap-align: start;
+}

@@ -1,0 +1,52 @@
+{
+  "brand": {
+    "logo": "",
+    "logoText": "Blistavo",
+    "favicon": "/logo.svg"
+  },
+  "theme": {
+    "mainColor": "#0284C7",
+    "secondaryColor": "#16A34A",
+    "accentColor": "#0C4A6E",
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#0F172A",
+    "mutedTextColor": "#64748B",
+    "borderRadius": "16px",
+    "fontFamily": "DM Sans",
+    "containerWidth": "1200px"
+  },
+  "layout": {
+    "navbarVariant": 13,
+    "heroVariant": 6,
+    "servicesVariant": 11,
+    "aboutVariant": 14,
+    "featuresVariant": 2,
+    "galleryVariant": 8,
+    "testimonialsVariant": 6,
+    "pricingVariant": 2,
+    "faqVariant": 15,
+    "ctaVariant": 2,
+    "contactVariant": 5,
+    "footerVariant": 2
+  },
+  "sections": {
+    "showServices": true,
+    "showAbout": true,
+    "showFeatures": true,
+    "showGallery": true,
+    "showTestimonials": true,
+    "showPricing": true,
+    "showFAQ": true,
+    "showCTA": true,
+    "showContact": true,
+    "showCallButton": true
+  },
+  "seo": {
+    "siteUrl": "https://example.com",
+    "defaultTitle": "Blistavo — Cleaning Service in Novi Sad",
+    "defaultDescription": "Professional home and office cleaning in Novi Sad. Regular, deep, and move-out cleaning with vetted staff, our own supplies, and a satisfaction guarantee.",
+    "keywords": ["cleaning service", "Novi Sad", "home cleaning", "office cleaning", "deep cleaning"],
+    "businessType": "LocalBusiness",
+    "language": "en"
+  }
+}

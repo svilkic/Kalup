@@ -1,0 +1,52 @@
+{
+  "brand": {
+    "logo": "",
+    "logoText": "Jovanović & Partners",
+    "favicon": "/logo.svg"
+  },
+  "theme": {
+    "mainColor": "#1E293B",
+    "secondaryColor": "#A16207",
+    "accentColor": "#0F172A",
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#0F172A",
+    "mutedTextColor": "#64748B",
+    "borderRadius": "0px",
+    "fontFamily": "Sora",
+    "containerWidth": "1120px"
+  },
+  "layout": {
+    "navbarVariant": 6,
+    "heroVariant": 2,
+    "servicesVariant": 5,
+    "aboutVariant": 8,
+    "featuresVariant": 3,
+    "galleryVariant": 1,
+    "testimonialsVariant": 4,
+    "pricingVariant": 1,
+    "faqVariant": 4,
+    "ctaVariant": 3,
+    "contactVariant": 1,
+    "footerVariant": 3
+  },
+  "sections": {
+    "showServices": true,
+    "showAbout": true,
+    "showFeatures": true,
+    "showGallery": false,
+    "showTestimonials": true,
+    "showPricing": false,
+    "showFAQ": true,
+    "showCTA": true,
+    "showContact": true,
+    "showCallButton": false
+  },
+  "seo": {
+    "siteUrl": "https://example.com",
+    "defaultTitle": "Jovanović & Partners — Law Office in Novi Sad",
+    "defaultDescription": "Law office in Novi Sad for property, contract, family, and employment matters. Plain-language advice and predictable fees.",
+    "keywords": ["law office", "attorney", "Novi Sad", "property law", "contracts"],
+    "businessType": "LegalService",
+    "language": "en"
+  }
+}

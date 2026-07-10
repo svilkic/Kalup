@@ -1,0 +1,51 @@
+{
+  "brand": {
+    "logo": "",
+    "logoText": "Zrno",
+    "favicon": "/logo.svg"
+  },
+  "theme": {
+    "mainColor": "#C2410C",
+    "secondaryColor": "#0369A1",
+    "accentColor": "#1C1917",
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#1C1917",
+    "mutedTextColor": "#78716C",
+    "borderRadius": "12px",
+    "fontFamily": "Manrope",
+    "containerWidth": "1200px"
+  },
+  "layout": {
+    "navbarVariant": 3,
+    "heroVariant": 3,
+    "servicesVariant": 8,
+    "aboutVariant": 4,
+    "featuresVariant": 8,
+    "galleryVariant": 7,
+    "testimonialsVariant": 6,
+    "pricingVariant": 1,
+    "faqVariant": 7,
+    "ctaVariant": 8,
+    "contactVariant": 3,
+    "footerVariant": 8
+  },
+  "sections": {
+    "showServices": true,
+    "showAbout": true,
+    "showFeatures": true,
+    "showGallery": true,
+    "showTestimonials": true,
+    "showPricing": false,
+    "showFAQ": true,
+    "showCTA": true,
+    "showContact": true
+  },
+  "seo": {
+    "siteUrl": "https://example.com",
+    "defaultTitle": "Zrno — Specialty Coffee in Novi Sad",
+    "defaultDescription": "Specialty coffee bar near the city park. Freshly roasted beans, weekend brunch, and a quiet corner to work in.",
+    "keywords": ["specialty coffee", "Novi Sad", "café", "brunch", "coffee beans"],
+    "businessType": "CafeOrCoffeeShop",
+    "language": "en"
+  }
+}

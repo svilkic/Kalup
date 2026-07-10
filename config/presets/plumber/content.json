@@ -1,0 +1,317 @@
+{
+  "navbar": {
+    "links": [
+      {
+        "label": "Home",
+        "href": "#home"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "About",
+        "href": "#about"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "ctaLabel": "Get a Quote"
+  },
+  "hero": {
+    "eyebrow": "Plumbing & Heating · Novi Sad",
+    "title": "Plumbing problems fixed properly, the first time",
+    "subtitle": "We repair leaks, install boilers, and maintain heating systems across Novi Sad. You get a clear price before we start and a tidy job when we leave.",
+    "primaryButton": "Get a Quote",
+    "secondaryButton": "View Services",
+    "image": "/hero.jpg",
+    "imageAlt": "Technician servicing a wall-mounted boiler",
+    "badges": [
+      "Licensed & insured",
+      "Same-week appointments",
+      "Fixed quotes"
+    ],
+    "highlights": [
+      {
+        "title": "Emergency repairs",
+        "description": "Burst pipes and leaks handled quickly."
+      },
+      {
+        "title": "Boiler installation",
+        "description": "Supply, fitting, and first service included."
+      },
+      {
+        "title": "Annual maintenance",
+        "description": "Keep your heating reliable through winter."
+      }
+    ],
+    "contactCard": {
+      "title": "Request a callback",
+      "subtitle": "Tell us what you need and we'll call you back the same day.",
+      "button": "Call +381 21 123 456"
+    }
+  },
+  "services": {
+    "title": "What we do",
+    "subtitle": "Straightforward services for homes and small commercial spaces.",
+    "items": [
+      {
+        "title": "Leak & pipe repair",
+        "description": "Locating and fixing leaks in kitchens, bathrooms, and mains connections, with minimal disruption to walls and floors.",
+        "icon": "Wrench",
+        "image": "/services/repair.jpg"
+      },
+      {
+        "title": "Boiler installation",
+        "description": "Supply and installation of gas and electric boilers, including removal of the old unit and a full safety check.",
+        "icon": "Flame",
+        "image": "/services/boiler.jpg"
+      },
+      {
+        "title": "Bathroom plumbing",
+        "description": "Complete plumbing for bathroom renovations: pipework, fixtures, radiators, and connection to existing systems.",
+        "icon": "ShowerHead",
+        "image": "/services/bathroom.jpg"
+      },
+      {
+        "title": "Heating maintenance",
+        "description": "Annual servicing of boilers and radiators so small issues get caught before the heating season.",
+        "icon": "ThermometerSun",
+        "image": "/services/heating.jpg"
+      },
+      {
+        "title": "Drain cleaning",
+        "description": "Mechanical and high-pressure cleaning of blocked drains, with a camera inspection when the cause isn't obvious.",
+        "icon": "Droplets",
+        "image": "/services/drain.jpg"
+      },
+      {
+        "title": "Water heater service",
+        "description": "Repair and replacement of electric water heaters, including descaling and heating element replacement.",
+        "icon": "Zap",
+        "image": "/services/waterheater.jpg"
+      }
+    ]
+  },
+  "about": {
+    "title": "A family business since 1998",
+    "subtitle": "Two generations of plumbers, one standard of work.",
+    "body": "Kovac & Sons started as a one-man workshop in Petrovaradin. Today we're a team of five, but the way we work hasn't changed: we show up when we say we will, we explain what needs to be done and what it costs, and we don't leave until the job is tested and the workspace is clean. Most of our new clients come from recommendations, and we intend to keep it that way.",
+    "image": "/about.jpg",
+    "imageAlt": "The Kovac & Sons team in front of their workshop",
+    "stats": [
+      {
+        "value": "25+",
+        "label": "Years in business"
+      },
+      {
+        "value": "4,000+",
+        "label": "Jobs completed"
+      },
+      {
+        "value": "5",
+        "label": "Certified technicians"
+      }
+    ]
+  },
+  "features": {
+    "title": "Why people call us back",
+    "subtitle": "The small things that make working with us easy.",
+    "items": [
+      {
+        "title": "Fixed quotes",
+        "description": "You approve the price before we start. No surprises on the invoice.",
+        "icon": "FileCheck"
+      },
+      {
+        "title": "On-time arrival",
+        "description": "We give you a two-hour window and call if anything changes.",
+        "icon": "Clock"
+      },
+      {
+        "title": "Clean workspace",
+        "description": "Floors covered, tools packed, waste taken away when we finish.",
+        "icon": "Sparkles"
+      },
+      {
+        "title": "Warranty on work",
+        "description": "Two years on labour, manufacturer warranty on all parts.",
+        "icon": "ShieldCheck"
+      },
+      {
+        "title": "Quality parts",
+        "description": "We install brands we're willing to come back and service.",
+        "icon": "Package"
+      },
+      {
+        "title": "Honest advice",
+        "description": "If a repair makes more sense than a replacement, we'll say so.",
+        "icon": "MessageSquare"
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Recent work",
+    "subtitle": "A few projects from the past year.",
+    "items": [
+      {
+        "image": "/gallery/1.jpg",
+        "alt": "Renovated bathroom with walk-in shower",
+        "caption": "Bathroom renovation, Liman"
+      },
+      {
+        "image": "/gallery/2.jpg",
+        "alt": "New condensing boiler installation",
+        "caption": "Boiler replacement, Grbavica"
+      },
+      {
+        "image": "/gallery/3.jpg",
+        "alt": "Underfloor heating manifold",
+        "caption": "Underfloor heating, Sremska Kamenica"
+      },
+      {
+        "image": "/gallery/4.jpg",
+        "alt": "Copper pipework in utility room",
+        "caption": "Repiping, city centre"
+      },
+      {
+        "image": "/gallery/5.jpg",
+        "alt": "Radiator installation in living room",
+        "caption": "Radiator upgrade, Detelinara"
+      },
+      {
+        "image": "/gallery/6.jpg",
+        "alt": "Outdoor water connection",
+        "caption": "Garden water line, Futog"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "What clients say",
+    "subtitle": "Real feedback from recent jobs.",
+    "items": [
+      {
+        "name": "Milica J.",
+        "role": "Homeowner, Liman",
+        "text": "They replaced our boiler in one day and left the apartment cleaner than they found it. The price matched the quote exactly."
+      },
+      {
+        "name": "Stefan P.",
+        "role": "Café owner",
+        "text": "A pipe burst behind our bar on a Saturday. They were here in under an hour and we opened as usual on Monday."
+      },
+      {
+        "name": "Ana & Marko",
+        "role": "Homeowners, Petrovaradin",
+        "text": "Third time we've hired them. They tell you honestly what's worth repairing and what isn't, which is rare."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Simple pricing",
+    "subtitle": "Standard call-out rates. Larger jobs are quoted individually, in writing.",
+    "plans": [
+      {
+        "name": "Call-out & diagnosis",
+        "price": "3,500 RSD",
+        "period": "per visit",
+        "description": "We come out, find the problem, and give you a fixed quote for the repair.",
+        "features": [
+          "Two-hour arrival window",
+          "Written quote on the spot",
+          "Fee waived if you book the repair"
+        ],
+        "button": "Book a visit",
+        "featured": false
+      },
+      {
+        "name": "Annual boiler service",
+        "price": "7,900 RSD",
+        "period": "po godini",
+        "description": "Full service and safety check, done before the heating season starts.",
+        "features": [
+          "Burner and heat exchanger cleaning",
+          "Pressure and safety valve check",
+          "Priority booking in winter",
+          "10% off any repairs"
+        ],
+        "button": "Schedule service",
+        "featured": true
+      },
+      {
+        "name": "Renovation plumbing",
+        "price": "Custom",
+        "period": "per project",
+        "description": "Bathrooms, kitchens, and full repiping, quoted from your floor plan.",
+        "features": [
+          "Free on-site assessment",
+          "Itemised written offer",
+          "Coordination with your contractor"
+        ],
+        "button": "Request a quote",
+        "featured": false
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "subtitle": "If your question isn't here, call us — we answer the phone.",
+    "items": [
+      {
+        "question": "How quickly can you come out?",
+        "answer": "For emergencies like burst pipes or major leaks, usually within a few hours. For regular repairs and installations, we can typically book you within the same week."
+      },
+      {
+        "question": "Do you give quotes before starting work?",
+        "answer": "Always. For repairs, you get a fixed quote after diagnosis and nothing happens until you approve it. For renovations, you get an itemised written offer."
+      },
+      {
+        "question": "Is your work guaranteed?",
+        "answer": "Yes. We give two years of warranty on our labour, and all parts we install carry the manufacturer's warranty. If something we fixed fails, we come back free of charge."
+      },
+      {
+        "question": "Which areas do you cover?",
+        "answer": "Novi Sad and surrounding towns: Petrovaradin, Sremska Kamenica, Futog, Veternik, and Kać. For larger projects we also travel further — just ask."
+      },
+      {
+        "question": "How do I pay?",
+        "answer": "Cash, bank transfer, or card on site. For renovation projects we agree on payment stages in the written offer, with nothing due up front except materials."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Have a plumbing problem?",
+    "subtitle": "Call us or send a message. We'll give you an honest assessment and a clear price.",
+    "button": "Get a Quote",
+    "secondaryButton": "Call +381 21 123 456"
+  },
+  "contact": {
+    "title": "Get in touch",
+    "subtitle": "Call, write, or drop by the workshop. We reply to messages within one working day.",
+    "phone": "+381 21 123 456",
+    "email": "office@kovacsons.rs",
+    "address": "Bulevar oslobođenja 12, Novi Sad",
+    "hours": "Mon–Fri 7:00–17:00, Sat 8:00–13:00",
+    "form": {
+      "nameLabel": "Your name",
+      "emailLabel": "Email",
+      "phoneLabel": "Phone",
+      "messageLabel": "How can we help?",
+      "submitLabel": "Send message"
+    }
+  },
+  "footer": {
+    "businessName": "Kovac & Sons",
+    "description": "Family-run plumbing and heating service in Novi Sad since 1998.",
+    "phone": "+381 21 123 456",
+    "email": "office@kovacsons.rs",
+    "address": "Bulevar oslobođenja 12, Novi Sad",
+    "copyright": "Kovac & Sons. All rights reserved."
+  }
+}

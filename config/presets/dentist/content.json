@@ -1,0 +1,173 @@
+{
+  "navbar": {
+    "links": [
+      { "label": "Home", "href": "#home" },
+      { "label": "Treatments", "href": "#services" },
+      { "label": "About", "href": "#about" },
+      { "label": "Prices", "href": "#pricing" },
+      { "label": "Contact", "href": "#contact" }
+    ],
+    "ctaLabel": "Book a Visit"
+  },
+  "hero": {
+    "eyebrow": "Family Dental Practice · Novi Sad",
+    "title": "Dentistry without the dread",
+    "subtitle": "Modern equipment, honest prices, and a team that explains what's happening before anything happens. Especially patient with people who'd rather be anywhere else.",
+    "primaryButton": "Book a Visit",
+    "secondaryButton": "See Treatments",
+    "image": "/hero.jpg",
+    "imageAlt": "Bright, modern dental treatment room",
+    "badges": ["Same-week appointments", "Digital X-ray on site", "Painless anaesthesia"],
+    "contactCard": {
+      "title": "Book an appointment",
+      "subtitle": "Call us or leave your number and we'll get back within the hour during working time.",
+      "button": "Call +381 21 661 500"
+    }
+  },
+  "services": {
+    "title": "Treatments",
+    "subtitle": "From regular check-ups to full smile makeovers.",
+    "items": [
+      {
+        "title": "Check-ups & cleaning",
+        "description": "Examination, ultrasonic cleaning, and polishing. The visit that makes all other visits smaller and cheaper.",
+        "icon": "Smile"
+      },
+      {
+        "title": "Fillings & repairs",
+        "description": "Tooth-coloured composite fillings, done under local anaesthesia you'll barely notice.",
+        "icon": "Sparkles"
+      },
+      {
+        "title": "Root canal treatment",
+        "description": "Machine endodontics with digital X-ray control — precise, and far more comfortable than its reputation.",
+        "icon": "HeartPulse"
+      },
+      {
+        "title": "Crowns & bridges",
+        "description": "Metal-free ceramic restorations, colour-matched to your teeth, made in a local lab we trust.",
+        "icon": "Gem"
+      },
+      {
+        "title": "Teeth whitening",
+        "description": "In-office whitening in one visit, with a realistic conversation first about what it can and can't do.",
+        "icon": "Star"
+      },
+      {
+        "title": "Children's dentistry",
+        "description": "First visits that are actually fun, so the next twenty years of check-ups go easily.",
+        "icon": "Heart"
+      }
+    ]
+  },
+  "about": {
+    "title": "The practice",
+    "subtitle": "Two dentists, one hygienist, zero lectures about flossing.",
+    "body": "Dr Milan Petrović opened the practice in 2010 after a decade in a large clinic, wanting appointments that don't feel like an assembly line. His daughter Dr Jelena joined in 2021. We keep the schedule loose enough that your 30-minute appointment actually lasts 30 minutes, and we never start a treatment before you understand what it is, why it's needed, and what it costs.",
+    "image": "/about.jpg",
+    "imageAlt": "Dr Petrović with a patient at the practice",
+    "stats": [
+      { "value": "15", "label": "Years of practice" },
+      { "value": "6,000+", "label": "Patients treated" },
+      { "value": "4.9★", "label": "Average review" }
+    ]
+  },
+  "features": {
+    "title": "Why patients relax here",
+    "items": [
+      { "title": "Nothing unexplained", "description": "You see the X-ray, hear the options, and decide. No surprise procedures.", "icon": "MessageSquare" },
+      { "title": "Prices before treatment", "description": "Every plan comes with a written cost, agreed before we start.", "icon": "FileCheck" },
+      { "title": "Gentle anaesthesia", "description": "Warmed anaesthetic and slow application — most patients don't feel the needle.", "icon": "Heart" },
+      { "title": "On time", "description": "Average waiting-room time under five minutes. Your time matters too.", "icon": "Clock" },
+      { "title": "Digital X-ray", "description": "On-site imaging with a fraction of the radiation of older machines.", "icon": "Stethoscope" },
+      { "title": "Nervous patients welcome", "description": "Tell us. We'll go slower, explain more, and pause whenever you raise a hand.", "icon": "ThumbsUp" }
+    ]
+  },
+  "gallery": {
+    "title": "The practice",
+    "items": [
+      { "image": "/gallery/1.jpg", "alt": "Reception and waiting area", "caption": "Reception" },
+      { "image": "/gallery/2.jpg", "alt": "Treatment room with dental chair", "caption": "Treatment room" },
+      { "image": "/gallery/3.jpg", "alt": "Digital X-ray equipment", "caption": "Digital imaging" },
+      { "image": "/gallery/4.jpg", "alt": "Sterilization room", "caption": "Sterilization" }
+    ]
+  },
+  "testimonials": {
+    "title": "What patients say",
+    "items": [
+      {
+        "name": "Ivana R.",
+        "role": "Patient since 2015",
+        "text": "I avoided dentists for ten years after a bad experience. Dr Petrović fixed everything over four visits and I never once felt rushed or judged."
+      },
+      {
+        "name": "Nemanja S.",
+        "role": "Parent",
+        "text": "My six-year-old asks when she can go to the dentist again. I don't know what kind of magic that is, but we're keeping it."
+      },
+      {
+        "name": "Marija L.",
+        "role": "Patient",
+        "text": "Root canal with zero pain, exactly at the quoted price. The written treatment plan made it easy to trust them."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Price list",
+    "subtitle": "Full price list at the practice. A written treatment plan always comes before any work.",
+    "plans": [
+      { "name": "Check-up & consultation", "price": "2,000 RSD", "period": "30 min", "description": "Examination, advice, and a treatment plan if needed." },
+      { "name": "Cleaning & polishing", "price": "4,500 RSD", "period": "45 min", "description": "Ultrasonic scaling, polishing, and fluoride." },
+      { "name": "Composite filling", "price": "from 4,000 RSD", "period": "per tooth", "description": "Depending on size; includes anaesthesia." },
+      { "name": "Teeth whitening", "price": "24,000 RSD", "period": "one visit", "description": "In-office whitening with take-home care kit." }
+    ]
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "question": "I haven't been to a dentist in years. Where do I start?",
+        "answer": "With a check-up — nothing else happens at that visit. You get an honest picture of where things stand and a plan broken into steps, ordered by urgency, with prices. Many 'disaster' mouths need far less work than their owners fear."
+      },
+      {
+        "question": "Does it hurt?",
+        "answer": "Modern anaesthesia means treatments themselves shouldn't hurt at all. We warm the anaesthetic and apply it slowly, so even the needle is barely noticeable. And you always have a stop signal — raise your hand and we pause."
+      },
+      {
+        "question": "How do payments work?",
+        "answer": "Cash or card after each visit. Larger treatment plans can be split across visits — you pay for what's done, when it's done. The written plan you approve up front is the price you pay."
+      },
+      {
+        "question": "Do you see children?",
+        "answer": "Gladly, from the first tooth. First visits are short and playful — a ride in the chair, counting teeth, no drilling. The goal is a child who isn't afraid, which makes every later visit easier."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Time for a check-up?",
+    "subtitle": "Book a visit — the first conversation costs nothing but half an hour.",
+    "button": "Book a Visit"
+  },
+  "contact": {
+    "title": "Book a visit",
+    "subtitle": "Call during working hours or send a message anytime.",
+    "phone": "+381 21 661 500",
+    "email": "praksa@petrovicdental.rs",
+    "address": "Železnička 23, Novi Sad",
+    "hours": "Mon–Fri 8:00–20:00, Sat 9:00–14:00",
+    "form": {
+      "nameLabel": "Your name",
+      "emailLabel": "Email",
+      "phoneLabel": "Phone",
+      "messageLabel": "How can we help?",
+      "submitLabel": "Send message"
+    }
+  },
+  "footer": {
+    "businessName": "Petrović Dental",
+    "description": "Family dental practice in Novi Sad since 2010.",
+    "phone": "+381 21 661 500",
+    "email": "praksa@petrovicdental.rs",
+    "address": "Železnička 23, Novi Sad"
+  }
+}

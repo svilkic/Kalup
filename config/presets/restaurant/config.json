@@ -1,0 +1,52 @@
+{
+  "brand": {
+    "logo": "",
+    "logoText": "Kod Šarana",
+    "favicon": "/logo.svg"
+  },
+  "theme": {
+    "mainColor": "#92400E",
+    "secondaryColor": "#B91C1C",
+    "accentColor": "#292524",
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#292524",
+    "mutedTextColor": "#78716C",
+    "borderRadius": "8px",
+    "fontFamily": "Manrope",
+    "containerWidth": "1200px"
+  },
+  "layout": {
+    "navbarVariant": 15,
+    "heroVariant": 13,
+    "servicesVariant": 4,
+    "aboutVariant": 15,
+    "featuresVariant": 14,
+    "galleryVariant": 14,
+    "testimonialsVariant": 15,
+    "pricingVariant": 10,
+    "faqVariant": 14,
+    "ctaVariant": 12,
+    "contactVariant": 14,
+    "footerVariant": 15
+  },
+  "sections": {
+    "showServices": true,
+    "showAbout": true,
+    "showFeatures": true,
+    "showGallery": true,
+    "showTestimonials": true,
+    "showPricing": true,
+    "showFAQ": true,
+    "showCTA": true,
+    "showContact": true,
+    "showCallButton": true
+  },
+  "seo": {
+    "siteUrl": "https://example.com",
+    "defaultTitle": "Kod Šarana — Fish Restaurant on the Danube, Novi Sad",
+    "defaultDescription": "Family fish restaurant by the Danube in Novi Sad. Fresh river fish, fish soup by our grandmother's recipe, and a terrace with a view of the water.",
+    "keywords": ["restaurant", "fish restaurant", "Novi Sad", "Danube", "fish soup"],
+    "businessType": "Restaurant",
+    "language": "en"
+  }
+}

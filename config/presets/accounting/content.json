@@ -1,0 +1,179 @@
+{
+  "navbar": {
+    "links": [
+      { "label": "Home", "href": "#home" },
+      { "label": "Services", "href": "#services" },
+      { "label": "About", "href": "#about" },
+      { "label": "Packages", "href": "#pricing" },
+      { "label": "Contact", "href": "#contact" }
+    ],
+    "ctaLabel": "Free Consultation"
+  },
+  "hero": {
+    "eyebrow": "Accounting Office · Novi Sad",
+    "title": "Your books in order, your deadlines met",
+    "subtitle": "Bookkeeping, payroll, and tax filings for entrepreneurs and small companies — handled quietly and on time, explained in plain language whenever you ask.",
+    "primaryButton": "Book a Free Consultation"
+  },
+  "services": {
+    "title": "What we handle",
+    "subtitle": "Everything between your invoices and the tax office.",
+    "items": [
+      {
+        "title": "Bookkeeping",
+        "description": "Complete double-entry bookkeeping for companies and simplified books for entrepreneurs, kept current weekly — not reconstructed in a panic each January.",
+        "icon": "Calculator"
+      },
+      {
+        "title": "Payroll",
+        "description": "Salaries, contributions, sick leave, and vacation calculations, delivered on the same day every month with slips your employees can actually read.",
+        "icon": "Receipt"
+      },
+      {
+        "title": "Tax filings & compliance",
+        "description": "VAT, corporate and personal income tax, all filed before the deadline — you'll never learn about an obligation from a penalty notice.",
+        "icon": "FileCheck"
+      },
+      {
+        "title": "Company formation",
+        "description": "Choosing between entrepreneur and LLC, registration paperwork, and the tax setup that fits how you'll actually operate.",
+        "icon": "Briefcase"
+      },
+      {
+        "title": "Reports & analysis",
+        "description": "Monthly overviews that tell you how the business is really doing, in numbers you don't need an economics degree to read.",
+        "icon": "TrendingUp"
+      },
+      {
+        "title": "Advisory",
+        "description": "A phone call before a big decision — new employee, new car, new market — so the tax consequences are a plan, not a surprise.",
+        "icon": "PiggyBank"
+      }
+    ]
+  },
+  "about": {
+    "title": "The office",
+    "subtitle": "Small enough to know your business, experienced enough to protect it.",
+    "body": "Bilans was founded in 2011 by Vesna Ilić after fifteen years in corporate finance. Today four of us look after around ninety clients — mostly entrepreneurs, agencies, and family firms. We deliberately stay small: every client has one accountant who knows their history, answers their calls, and notices when something in the numbers looks off before it becomes a problem. Deadlines are our obsession; in fourteen years we have not missed one.",
+    "stats": [
+      { "value": "2011", "label": "Founded" },
+      { "value": "90", "label": "Active clients" },
+      { "value": "0", "label": "Missed deadlines" }
+    ]
+  },
+  "features": {
+    "title": "How we work",
+    "items": [
+      { "title": "One accountant, your accountant", "description": "The person who does your books is the person who answers your questions.", "icon": "Users" },
+      { "title": "Plain language", "description": "Every answer comes with the 'what this means for you' translation.", "icon": "MessageSquare" },
+      { "title": "Deadlines without reminders", "description": "We track every obligation; you hear from us before the state does.", "icon": "Calendar" },
+      { "title": "Digital by default", "description": "Send documents by photo or email — no shoebox of receipts required.", "icon": "FileText" },
+      { "title": "Fixed monthly fee", "description": "One predictable price, agreed in writing, no per-question billing.", "icon": "Receipt" },
+      { "title": "Proactive warnings", "description": "If a rule changes and affects you, you'll know the week it's announced.", "icon": "ShieldCheck" }
+    ]
+  },
+  "gallery": {
+    "items": []
+  },
+  "testimonials": {
+    "title": "What clients say",
+    "items": [
+      {
+        "name": "Nikola V.",
+        "role": "IT entrepreneur",
+        "text": "I switched after my old accountant surprised me with a tax bill he'd known about for months. Bilans calls me in advance about things I didn't even know existed. The difference is night and day."
+      },
+      {
+        "name": "Pekara Zlatno Zrno",
+        "role": "Family business, client since 2014",
+        "text": "Eleven years, three inspections, zero findings. Vesna knows our business better than we know it ourselves."
+      },
+      {
+        "name": "Ana S.",
+        "role": "Marketing agency owner",
+        "text": "Payroll arrives the same morning every month like clockwork, and when I call with a dumb question I get an answer, not a lecture."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Monthly packages",
+    "subtitle": "Fixed fees agreed in writing. The exact price depends on document volume — these are typical ranges.",
+    "plans": [
+      {
+        "name": "Entrepreneur (flat-rate)",
+        "price": "from 6,000 RSD",
+        "period": "per month",
+        "description": "For flat-rate entrepreneurs: filings, deadlines, and advisory.",
+        "features": ["All tax filings", "Deadline tracking", "Unlimited questions"],
+        "button": "Ask for an exact quote",
+        "featured": false
+      },
+      {
+        "name": "Entrepreneur (books)",
+        "price": "from 12,000 RSD",
+        "period": "per month",
+        "description": "Full books for entrepreneurs, with payroll for up to three employees.",
+        "features": ["Complete bookkeeping", "Payroll included", "Monthly overview report", "Annual statements"],
+        "button": "Ask for an exact quote",
+        "featured": true
+      },
+      {
+        "name": "Company (LLC)",
+        "price": "from 20,000 RSD",
+        "period": "per month",
+        "description": "Double-entry bookkeeping, payroll, VAT, and year-end statements.",
+        "features": ["Double-entry books", "VAT filings", "Payroll & contributions", "Advisory included"],
+        "button": "Ask for an exact quote",
+        "featured": false
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "question": "I'm just starting out. Entrepreneur or LLC?",
+        "answer": "It depends on your expected income, clients, and risk — there's no universal answer, and anyone who gives you one without asking questions is guessing. Bring your plan to a free consultation and you'll leave with a concrete recommendation and the numbers behind it."
+      },
+      {
+        "question": "How does switching from my current accountant work?",
+        "answer": "You sign one authorization, and we handle the takeover directly with your current office — books, records, and open items. Switching mid-year is routine; the only bad time to switch is after a problem, not before one."
+      },
+      {
+        "question": "How do I get documents to you?",
+        "answer": "Photograph or scan them and send by email or message as they arrive — no monthly shoebox delivery. If you prefer paper, our office is in the centre and there's a folder with your name on it."
+      },
+      {
+        "question": "What happens if there's an inspection?",
+        "answer": "We attend it with you — or instead of you, with authorization. Since the books are kept properly all year, inspections at our clients are usually short and uneventful. That's rather the point of us."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Talk to an accountant before you need one",
+    "subtitle": "The first consultation is free and obligation-free — bring your questions.",
+    "button": "Book a Free Consultation"
+  },
+  "contact": {
+    "title": "Contact the office",
+    "subtitle": "Call, write, or come by — we're in the centre, second floor.",
+    "phone": "+381 21 424 610",
+    "email": "office@bilans.rs",
+    "address": "Njegoševa 2/II, Novi Sad",
+    "hours": "Mon–Fri 8:00–16:00",
+    "form": {
+      "nameLabel": "Your name",
+      "emailLabel": "Email",
+      "phoneLabel": "Phone",
+      "messageLabel": "What does your business do, and what do you need?",
+      "submitLabel": "Send inquiry"
+    }
+  },
+  "footer": {
+    "businessName": "Bilans",
+    "description": "Accounting office for entrepreneurs and small companies, Novi Sad.",
+    "phone": "+381 21 424 610",
+    "email": "office@bilans.rs",
+    "address": "Njegoševa 2/II, Novi Sad"
+  }
+}

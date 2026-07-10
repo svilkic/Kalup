@@ -1,0 +1,173 @@
+{
+  "navbar": {
+    "links": [
+      { "label": "Home", "href": "#home" },
+      { "label": "Services", "href": "#services" },
+      { "label": "Prices", "href": "#pricing" },
+      { "label": "Gallery", "href": "#gallery" },
+      { "label": "Contact", "href": "#contact" }
+    ],
+    "ctaLabel": "Book an Appointment"
+  },
+  "hero": {
+    "eyebrow": "Hair Salon · Novi Sad Centre",
+    "title": "Hair that looks good the week after, too",
+    "subtitle": "Cuts, color, and styling done with care and honest advice. We take the time to understand what suits your hair, not just what's trending.",
+    "primaryButton": "Book an Appointment",
+    "secondaryButton": "See Prices",
+    "image": "/hero.jpg",
+    "imageAlt": "Stylist working in a bright salon interior",
+    "badges": ["Evening appointments", "Quality color brands", "12 years of experience"]
+  },
+  "services": {
+    "title": "What we do",
+    "subtitle": "From a quick trim to a full color change.",
+    "items": [
+      {
+        "title": "Cuts & styling",
+        "description": "Consultation, wash, cut, and blow-dry. We cut for your hair type and how much time you actually have in the morning.",
+        "icon": "Scissors"
+      },
+      {
+        "title": "Color & balayage",
+        "description": "Full color, highlights, and balayage with brands we trust. We'll tell you honestly what your hair can handle in one visit.",
+        "icon": "Sparkles"
+      },
+      {
+        "title": "Treatments",
+        "description": "Repair and hydration treatments for damaged or color-treated hair, matched to what your hair needs right now.",
+        "icon": "Leaf"
+      },
+      {
+        "title": "Occasions",
+        "description": "Updos and styling for weddings and events. Book a trial run a week or two before the day.",
+        "icon": "Gem"
+      }
+    ]
+  },
+  "about": {
+    "title": "About the studio",
+    "subtitle": "A small salon where nobody rushes you out the door.",
+    "body": "Mila opened the studio in 2013 after a decade of working in larger salons. The idea was simple: fewer chairs, more time per client, and honest advice even when it means recommending less work, not more. Most clients have been coming for years — and bringing their friends.",
+    "image": "/about.jpg",
+    "imageAlt": "Portrait of Mila in the salon",
+    "stats": [
+      { "value": "12+", "label": "Years of experience" },
+      { "value": "3", "label": "Stylists" },
+      { "value": "2013", "label": "Open since" }
+    ]
+  },
+  "features": {
+    "title": "Why clients stay",
+    "subtitle": "The small things that make the difference.",
+    "items": [
+      { "title": "Honest consultations", "description": "If a color change would wreck your hair, we'll say so and suggest a plan instead.", "icon": "MessageSquare" },
+      { "title": "No double-booking", "description": "Your appointment is yours — we don't juggle three clients per chair.", "icon": "Calendar" },
+      { "title": "Quality products", "description": "We use and sell only products we'd put on our own hair.", "icon": "Heart" },
+      { "title": "Evening hours", "description": "Open until 20:00 on weekdays, so you don't have to skip work.", "icon": "Clock" }
+    ]
+  },
+  "gallery": {
+    "title": "Recent work",
+    "subtitle": "A few looks from the past months.",
+    "items": [
+      { "image": "/gallery/1.jpg", "alt": "Balayage on long brown hair", "caption": "Balayage, natural tones" },
+      { "image": "/gallery/2.jpg", "alt": "Short textured bob haircut", "caption": "Textured bob" },
+      { "image": "/gallery/3.jpg", "alt": "Wedding updo with loose strands", "caption": "Wedding styling" },
+      { "image": "/gallery/4.jpg", "alt": "Vivid copper color", "caption": "Copper gloss" },
+      { "image": "/gallery/5.jpg", "alt": "Curly hair shaped with layers", "caption": "Curl shaping" },
+      { "image": "/gallery/6.jpg", "alt": "Platinum blonde transformation", "caption": "Blonde transformation" }
+    ]
+  },
+  "testimonials": {
+    "title": "What clients say",
+    "items": [
+      {
+        "name": "Jelena D.",
+        "role": "Client since 2016",
+        "text": "Mila is the first hairdresser who told me NOT to do something I asked for — and she was right. My hair has never been healthier."
+      },
+      {
+        "name": "Tamara S.",
+        "role": "Bride, May 2025",
+        "text": "The trial run before the wedding took all the stress away. On the day everything was done in 40 minutes and held until 3 AM."
+      },
+      {
+        "name": "Ivana & Sara",
+        "role": "Mother and daughter",
+        "text": "We've both been coming for years. The prices are fair and nobody ever pushes products on you."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Price list",
+    "subtitle": "Final price depends on hair length and condition — we confirm before starting.",
+    "plans": [
+      {
+        "name": "Cut & blow-dry",
+        "price": "from 2,800 RSD",
+        "period": "60–90 min",
+        "description": "Consultation, wash, cut, and styling."
+      },
+      {
+        "name": "Color & cut",
+        "price": "from 6,500 RSD",
+        "period": "2–3 hours",
+        "description": "Full color or root touch-up with a cut and blow-dry."
+      },
+      {
+        "name": "Balayage",
+        "price": "from 9,000 RSD",
+        "period": "3–4 hours",
+        "description": "Balayage or highlights with toner and treatment."
+      },
+      {
+        "name": "Occasion styling",
+        "price": "from 4,000 RSD",
+        "period": "with trial run",
+        "description": "Updo or styling for weddings and events."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "question": "How do I book?",
+        "answer": "Call or send a message — we confirm within a few hours. For color appointments, book at least a week ahead; cuts can usually fit within a day or two."
+      },
+      {
+        "question": "Do you take walk-ins?",
+        "answer": "When a chair is free, gladly — but appointments always have priority, so it's safer to message first."
+      },
+      {
+        "question": "I want a big color change. What should I expect?",
+        "answer": "Come in for a free 10-minute consultation first. Big changes sometimes need two sessions to keep your hair healthy, and we'll tell you the realistic plan and full price upfront."
+      },
+      {
+        "question": "What if I'm not happy with the result?",
+        "answer": "Tell us within a week and we'll fix it free of charge. It almost never happens — the consultation is exactly for that."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready for a change?",
+    "subtitle": "Book an appointment or come in for a free consultation.",
+    "button": "Book an Appointment"
+  },
+  "contact": {
+    "title": "Find us",
+    "subtitle": "In the centre, two minutes from the main square.",
+    "phone": "+381 21 555 010",
+    "email": "hello@studiomila.rs",
+    "address": "Zmaj Jovina 8, Novi Sad",
+    "hours": "Mon–Fri 9:00–20:00, Sat 9:00–15:00"
+  },
+  "footer": {
+    "businessName": "Studio Mila",
+    "description": "Hair salon in the centre of Novi Sad.",
+    "phone": "+381 21 555 010",
+    "email": "hello@studiomila.rs",
+    "address": "Zmaj Jovina 8, Novi Sad"
+  }
+}

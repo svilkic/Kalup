@@ -1,0 +1,52 @@
+{
+  "brand": {
+    "logo": "",
+    "logoText": "Volt Elektro",
+    "favicon": "/logo.svg"
+  },
+  "theme": {
+    "mainColor": "#B45309",
+    "secondaryColor": "#1D4ED8",
+    "accentColor": "#1C1917",
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#1C1917",
+    "mutedTextColor": "#78716C",
+    "borderRadius": "8px",
+    "fontFamily": "Work Sans",
+    "containerWidth": "1200px"
+  },
+  "layout": {
+    "navbarVariant": 8,
+    "heroVariant": 7,
+    "servicesVariant": 2,
+    "aboutVariant": 1,
+    "featuresVariant": 5,
+    "galleryVariant": 8,
+    "testimonialsVariant": 4,
+    "pricingVariant": 3,
+    "faqVariant": 6,
+    "ctaVariant": 1,
+    "contactVariant": 2,
+    "footerVariant": 7
+  },
+  "sections": {
+    "showServices": true,
+    "showAbout": true,
+    "showFeatures": true,
+    "showGallery": true,
+    "showTestimonials": true,
+    "showPricing": false,
+    "showFAQ": true,
+    "showCTA": true,
+    "showContact": true,
+    "showCallButton": true
+  },
+  "seo": {
+    "siteUrl": "https://example.com",
+    "defaultTitle": "Volt Elektro — Electrician in Novi Sad",
+    "defaultDescription": "Licensed electrician for homes and small businesses in Novi Sad. Installations, repairs, and inspections with a fixed quote before work starts.",
+    "keywords": ["electrician", "Novi Sad", "electrical installation", "panel upgrade", "wiring"],
+    "businessType": "Electrician",
+    "language": "en"
+  }
+}

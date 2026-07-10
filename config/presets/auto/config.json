@@ -1,0 +1,52 @@
+{
+  "brand": {
+    "logo": "",
+    "logoText": "Servis Mihajlović",
+    "favicon": "/logo.svg"
+  },
+  "theme": {
+    "mainColor": "#B91C1C",
+    "secondaryColor": "#1D4ED8",
+    "accentColor": "#18181B",
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#18181B",
+    "mutedTextColor": "#71717A",
+    "borderRadius": "8px",
+    "fontFamily": "Work Sans",
+    "containerWidth": "1240px"
+  },
+  "layout": {
+    "navbarVariant": 7,
+    "heroVariant": 3,
+    "servicesVariant": 4,
+    "aboutVariant": 5,
+    "featuresVariant": 2,
+    "galleryVariant": 7,
+    "testimonialsVariant": 3,
+    "pricingVariant": 3,
+    "faqVariant": 1,
+    "ctaVariant": 8,
+    "contactVariant": 1,
+    "footerVariant": 8
+  },
+  "sections": {
+    "showServices": true,
+    "showAbout": true,
+    "showFeatures": true,
+    "showGallery": true,
+    "showTestimonials": true,
+    "showPricing": true,
+    "showFAQ": true,
+    "showCTA": true,
+    "showContact": true,
+    "showCallButton": true
+  },
+  "seo": {
+    "siteUrl": "https://example.com",
+    "defaultTitle": "Servis Mihajlović — Auto Repair in Novi Sad",
+    "defaultDescription": "Independent car workshop in Novi Sad. Diagnostics, servicing, brakes, and suspension for all makes — with photos of what we found before you approve the repair.",
+    "keywords": ["auto repair", "car service", "Novi Sad", "diagnostics", "brakes"],
+    "businessType": "AutoRepair",
+    "language": "en"
+  }
+}
