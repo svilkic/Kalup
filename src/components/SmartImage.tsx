@@ -1,8 +1,9 @@
-import fs from "node:fs";
-import path from "node:path";
+"use client";
+
+import { useState } from "react";
 import Image from "next/image";
 import { ImageIcon } from "lucide-react";
-import { cn } from "@/lib/utils";
+import { cn, editorEnabled } from "@/lib/utils";
 
 interface SmartImageProps {
   src?: string;
@@ -15,22 +16,33 @@ interface SmartImageProps {
 }
 
 /**
- * next/image in a sized wrapper. If the file referenced in content.json
- * doesn't exist in /public yet, renders a quiet placeholder instead of a
- * broken image — so a half-filled content file still builds and looks fine.
- * Server component (uses fs), so use it from sections, not client components.
+ * next/image in a sized wrapper. If the image is missing or fails to load,
+ * a quiet placeholder renders instead of a broken image — so a half-filled
+ * content file still looks fine. Client component so it also works in the
+ * state-driven /demo configurator; blob/data URLs (demo image uploads)
+ * bypass the optimizer.
  */
 export function SmartImage({ src, alt = "", className, sizes = "(min-width: 1024px) 50vw, 100vw", priority }: SmartImageProps) {
-  const exists = src && fs.existsSync(path.join(process.cwd(), "public", src.replace(/^\//, "")));
+  const [failedSrc, setFailedSrc] = useState<string | null>(null);
+  const show = src && failedSrc !== src;
 
   return (
     <div
       className={cn("relative overflow-hidden rounded-brand bg-main-soft", className)}
-      // Lets the dev content editor map this image back to its content.json field.
-      {...(process.env.NODE_ENV === "development" && src ? { "data-src": src } : {})}
+      // Lets the content editor map this image back to its content.json field.
+      {...(editorEnabled && src ? { "data-src": src } : {})}
     >
-      {exists ? (
-        <Image src={src} alt={alt} fill sizes={sizes} priority={priority} className="object-cover" />
+      {show ? (
+        <Image
+          src={src}
+          alt={alt}
+          fill
+          sizes={sizes}
+          priority={priority}
+          unoptimized={src.startsWith("blob:") || src.startsWith("data:")}
+          className="object-cover"
+          onError={() => setFailedSrc(src)}
+        />
       ) : (
         <div className="absolute inset-0 flex items-center justify-center" role="img" aria-label={alt || "Image placeholder"}>
           <ImageIcon className="h-10 w-10 text-main/30" aria-hidden="true" />

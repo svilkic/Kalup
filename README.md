@@ -196,6 +196,12 @@ The dev server console warns about config mistakes instead of failing silently: 
 
 The dev tools (sidebar, inline editor, presets) exclude themselves from production automatically — nothing to strip.
 
+## Showcasing the configurator (/demo)
+
+Production builds normally strip the visual editor — client sites ship as plain static pages. To deploy a **public playground** of the tool itself, set the environment variable `NEXT_PUBLIC_DEMO=1` at build time (Netlify/Vercel → environment variables). The build then includes `/demo`: the full configurator — presets, variants, theme controls, randomize, right-click editing of text/images/icons, and JSON export — running entirely in the visitor's browser. Nothing is written to the server; changes live in browser state and reset on reload, and visitors export their result with the Download buttons. Image replacement works too (as session-only previews).
+
+Without the variable, `/demo` is a 404 — so client deployments from the same repo stay clean. Test locally with `npm run build && npm start` after putting `NEXT_PUBLIC_DEMO=1` in `.env.local`.
+
 ## Deploying
 
 The site is a standard Next.js app — any Next-compatible host works.

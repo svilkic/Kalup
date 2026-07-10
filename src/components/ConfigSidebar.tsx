@@ -70,7 +70,15 @@ const px = (v: string) => parseInt(v, 10) || 0;
  * so theme and variant changes preview live. Export = copy or download
  * the same JSON to ship to a client project.
  */
-export function ConfigSidebar({ initial }: { initial: SiteConfig }) {
+interface ConfigSidebarProps {
+  initial: SiteConfig;
+  /** Demo mode: apply changes to parent state instead of writing config.json via the dev API. */
+  onChange?: (config: SiteConfig) => void;
+  /** Demo mode: apply a preset from bundled data instead of the dev API. */
+  onPreset?: (id: string) => void;
+}
+
+export function ConfigSidebar({ initial, onChange, onPreset }: ConfigSidebarProps) {
   const [config, setConfig] = useState(initial);
   const [open, setOpen] = useState(false);
   const [status, setStatus] = useState<"idle" | "saving" | "saved" | "error">("idle");
@@ -88,6 +96,11 @@ export function ConfigSidebar({ initial }: { initial: SiteConfig }) {
 
   const save = (next: SiteConfig) => {
     setConfig(next);
+    if (onChange) {
+      onChange(next);
+      setStatus("saved");
+      return;
+    }
     setStatus("saving");
     clearTimeout(timer.current);
     timer.current = setTimeout(async () => {
@@ -185,6 +198,10 @@ export function ConfigSidebar({ initial }: { initial: SiteConfig }) {
               type="button"
               onClick={async () => {
                 if (!confirm(`Replace the current config AND content with the "${p.label}" preset?`)) return;
+                if (onPreset) {
+                  onPreset(p.id);
+                  return;
+                }
                 const res = await fetch("/api/preset", {
                   method: "POST",
                   headers: { "Content-Type": "application/json" },

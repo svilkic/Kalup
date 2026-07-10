@@ -50,7 +50,13 @@ interface Menu {
  * ponytail: elements are matched to JSON by their text/src value, so if the
  * exact same string appears twice in content.json, the first path wins.
  */
-export function ContentEditor({ initial }: { initial: SiteContent }) {
+interface ContentEditorProps {
+  initial: SiteContent;
+  /** Demo mode: apply changes to parent state instead of writing content.json via the dev API. */
+  onChange?: (content: SiteContent) => void;
+}
+
+export function ContentEditor({ initial, onChange }: ContentEditorProps) {
   const contentRef = useRef(initial);
   const [status, setStatus] = useState<"idle" | "saving" | "saved" | "error">("idle");
   const [copied, setCopied] = useState(false);
@@ -62,6 +68,11 @@ export function ContentEditor({ initial }: { initial: SiteContent }) {
 
   const persist = async (next: SiteContent) => {
     contentRef.current = next;
+    if (onChange) {
+      onChange(next);
+      setStatus("saved");
+      return;
+    }
     setStatus("saving");
     try {
       const res = await fetch("/api/content", {
@@ -158,6 +169,11 @@ export function ContentEditor({ initial }: { initial: SiteContent }) {
   };
 
   const uploadImage = async (blob: Blob, entry: Entry) => {
+    if (onChange) {
+      // Demo mode: no server to upload to — a blob URL previews for this session.
+      await persist(setDeep(contentRef.current, entry.path, URL.createObjectURL(blob)));
+      return;
+    }
     setStatus("saving");
     try {
       const fd = new FormData();

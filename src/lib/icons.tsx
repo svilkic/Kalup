@@ -10,6 +10,7 @@ import {
   SprayCan, Calculator, PiggyBank, TrendingUp, Receipt,
   type LucideIcon,
 } from "lucide-react";
+import { editorEnabled } from "./utils";
 
 /*
  * Curated map instead of `import * as icons` so tree-shaking keeps the
@@ -40,8 +41,8 @@ export function Icon({ name, className }: { name?: string; className?: string })
     <Cmp
       className={className}
       aria-hidden="true"
-      // Lets the dev content editor map this icon back to its content.json field.
-      {...(process.env.NODE_ENV === "development" && name ? { "data-icon": name } : {})}
+      // Lets the content editor map this icon back to its content.json field.
+      {...(editorEnabled && name ? { "data-icon": name } : {})}
     />
   );
 }

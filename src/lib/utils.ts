@@ -1,3 +1,6 @@
+/** True when the visual editor may be present: dev, or a showcase build with NEXT_PUBLIC_DEMO=1. */
+export const editorEnabled = process.env.NODE_ENV === "development" || process.env.NEXT_PUBLIC_DEMO === "1";
+
 /** Join class names, skipping falsy values. */
 export function cn(...classes: (string | false | null | undefined)[]): string {
   return classes.filter(Boolean).join(" ");

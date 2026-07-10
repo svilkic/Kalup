@@ -72,6 +72,11 @@ export function getConfig(): SiteConfig {
   return deepMerge(defaultConfig, configJson);
 }
 
+/** Merge an arbitrary config object (e.g. a preset) over the defaults. */
+export function mergeConfig(raw: unknown): SiteConfig {
+  return deepMerge(defaultConfig, raw);
+}
+
 export function getContent(): SiteContent {
   return contentJson as SiteContent;
 }
